@@ -13,8 +13,9 @@ Backup your Data
 ----------------
 1. Insert the backup disk into your computer.
 2. Execute script '02 Backup my Screenshots.bat' in folder 'my-backup' - This will copy all your screenshots into folder 'my-backup/screenshots_of_<your_computer>'. 
-3. Eject the backup disk and store it in a safe place.
-4. Repeat 1 - 3 every week.
+3. Execute all other corresponding scripts.
+4. Eject the backup disk and store it in a safe place.
+5. Repeat all steps at lease every week.
 
 Recover your Data
 -----------------
