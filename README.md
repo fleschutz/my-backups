@@ -5,8 +5,9 @@ This repo provides support to make backups as easy as possible.
 
 Installation
 ------------
-1. Download this repository (see green button).
-2. Unzip it to the top folder of your media SSD / harddisk.
+1. Required is at least one backup SSD / harddisk.
+2. Download this repository (see green button).
+3. Unzip it to the top folder of your backup SSD / harddisk.
 
 Perform the Incremental Backup
 ------------------------------
