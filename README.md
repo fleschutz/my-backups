@@ -1,7 +1,7 @@
-Incremental Backups & Restore
-=============================
+Data Backup & Recovery
+======================
 
-This repo provides support to make backups as easy as possible.
+This repo provides support to backup your data as easy as possible.
 
 Preparation
 -----------
