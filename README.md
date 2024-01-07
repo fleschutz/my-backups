@@ -9,8 +9,8 @@ Preparation
 2. Download this repo (see green button).
 3. Unzip this repo to the top folder of your backup disk(s).
 
-Perform the Incremental Backup
-------------------------------
+Backup your Data
+----------------
 1. Insert the backup disk into your computer.
 2. Execute ...
 3. Eject the backup disk and store it in a safe place.
