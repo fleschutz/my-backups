@@ -1,13 +1,15 @@
 Incremental Backups & Restore
 =============================
 
-Supports to make backups as easy as possible.
+This repo provides support to make backups as easy as possible.
 
-(1) Preparation
----------------
+Installation
+------------
+1. Download this repository (see green button).
+2. Unzip it to the top folder of your media SSD / harddisk.
 
-(2) Perform Incremental Backups
--------------------------------
+Perform Incremental Backups
+---------------------------
 
 (3) Restore Partially
 ---------------------
