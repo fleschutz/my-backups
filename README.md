@@ -5,7 +5,7 @@ This repo provides basic support to backup your data as easy as possible. More a
 
 Preparation
 -----------
-1. Required is at least one SSD or harddisk (the "backup disk'), big enough to hold your data. Write the disk size and a name onto it, e.g. "4TB ALPHA BACKUP".
+1. Required is at least one SSD or harddisk (the "backup disk'), big enough to hold your data. Write the disk size and a name onto it (e.g. "4TB ALPHA BACKUP"), then insert it into your computer.
 2. Download this repo (see green button).
 3. Unzip this repo to the top folder of your backup disk(s).
 
