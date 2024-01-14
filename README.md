@@ -1,7 +1,7 @@
 Data Backup & Recovery
 ======================
 
-This repo provides basic support to backup your data as easy as possible. More and detailed information about backups can be found in the [docs](docs) folder.
+This repo provides basic support to backup your data as easy as possible. More information about backups, recovery, strategies, etc. can be found in the [docs](docs) folder.
 
 Preparation
 -----------
