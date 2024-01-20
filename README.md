@@ -21,5 +21,6 @@ This repo supports a professional and comfortable backup of your data. More info
 🪂 Recover your Data
 ---------------------
 1. Insert the correct(!) backup disk into your computer.
-2. Manually copy (not move!) the missing files and folders from the backup disk onto your media.
-3. Eject the backup disk and store it in a safe place again.
+2. Please find your backup data in the "Backup_of_*" folders.
+3. Manually copy (not move!) the missing files and folders onto your media.
+4. Eject the backup disk and store it in a safe place again.
