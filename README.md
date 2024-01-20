@@ -1,7 +1,7 @@
 Data Backup & Recovery
 ======================
 
-This repo supports a professional and comfortable backup of your data. More information can be found in the [docs](docs) folder (strategies, backups, first aid, recovery, etc).
+This repo supports a professional and comfortable backup of your data.
 
 🔧 Preparation
 ---------------
@@ -24,3 +24,7 @@ This repo supports a professional and comfortable backup of your data. More info
 2. Open the top folder 📁my-backups and you will find your backup data in the 📁Backup_of_* folders.
 3. Manually copy (not move!) the missing files and folders onto your media.
 4. Eject the backup disk and store it in a safe place again.
+
+Questions?
+----------
+More information can be found in the [docs](docs) folder (strategies, backups, first aid, recovery, etc)
