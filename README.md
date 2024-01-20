@@ -6,7 +6,7 @@ This repo helps to perform a professional backup of your data. More information 
 🔧 Preparation
 ---------------
 1. Required are one or more SSD's or harddisks (*"backup disks"*) with enough capacity to hold your data.
-2. Take a backup disk and write the disk size and a unique name onto it (e.g. *"4TB ALPHA BACKUP"*), then insert it into your computer and rename the disk using the same name.
+2. Take a backup disk and write the disk size and a unique name onto it (e.g. *"4TB FRIDAY BACKUP"*), then insert it into your computer and rename the disk using the same name.
 3. Download this repo (see green button) and unzip it into the top folder of your backup disk.
 4. Repeat all steps for each backup disk.
 
