@@ -1,7 +1,7 @@
 Data Backup & Recovery
 ======================
 
-This repo provides support to perform a professional backup of your data. More information about backups, recovery, strategies, etc. can be found in the [docs](docs) folder.
+This repo helps to perform a professional backup of your data. More information can be found in the [docs](docs) folder (backups, strategies, recovery etc).
 
 🔧 Preparation
 ---------------
@@ -22,4 +22,4 @@ This repo provides support to perform a professional backup of your data. More i
 ---------------------
 1. Insert the correct(!) backup disk into your computer.
 2. Manually copy (not move!) the missing files and folders from the backup disk onto your media.
-3. Eject the backup disk and store it in a safe place.
+3. Eject the backup disk and store it in a safe place again.
