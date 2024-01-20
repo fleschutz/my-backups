@@ -1,7 +1,7 @@
 Data Backup & Recovery
 ======================
 
-This repo helps to perform a professional backup of your data. More information can be found in the [docs](docs) folder (strategies, backups, first aid, recovery, etc).
+This repo supports a professional and comfortable backup of your data. More information can be found in the [docs](docs) folder (strategies, backups, first aid, recovery, etc).
 
 🔧 Preparation
 ---------------
