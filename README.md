@@ -12,8 +12,8 @@ This repo supports a professional and comfortable backup of your data. More info
 
 💾 Backup your Data
 --------------------
-1. Insert the next backup disk into your computer.
-2. Open the top folder 📁my-backups and execute the script 'Backup my Home Folder.bat'. This starts an incremental backup of your home folder into folder 📁my-backups/Backup_of_Home_Folder. 
+1. Insert the next backup disk into your computer and open the top folder 📁my-backups.
+2. Execute the script 'Backup my Home Folder.bat' to start an incremental backup of your home folder into folder 📁my-backups/Backup_of_Home_Folder. 
 3. Execute all other corresponding scripts.
 4. Eject the backup disk and store it in a safe place.
 5. Repeat all steps at least every week.
