@@ -3,8 +3,8 @@ Data Backup & Recovery
 
 This repo provides basic support to backup your data as easy as possible. More information about backups, recovery, strategies, etc. can be found in the [docs](docs) folder.
 
-Preparation
------------
+🔧 Preparation
+---------------
 1. Required are one or more SSD's or harddisks ("backup disks") with enough capacity to hold your data.
 2. Take a backup disk and write the disk size and a unique name onto it (e.g. "4TB ALPHA BACKUP"), then insert it into your computer and rename the disk using the same name.
 3. Download this repo (see green button) and unzip it into the top folder of your backup disk.
