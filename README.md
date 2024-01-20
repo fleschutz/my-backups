@@ -1,7 +1,7 @@
 Data Backup & Recovery
 ======================
 
-This repo provides basic support to backup your data as easy as possible. More information about backups, recovery, strategies, etc. can be found in the [docs](docs) folder.
+This repo provides support to perform a professional backup of your data. More information about backups, recovery, strategies, etc. can be found in the [docs](docs) folder.
 
 🔧 Preparation
 ---------------
@@ -10,8 +10,8 @@ This repo provides basic support to backup your data as easy as possible. More i
 3. Download this repo (see green button) and unzip it into the top folder of your backup disk.
 4. Repeat all steps for each backup disk.
 
-Backup your Data
-----------------
+💾 Backup your Data
+--------------------
 1. Insert the backup disk into your computer.
 2. Open the top folder 'my-backup' and execute the script 'Backup my Home Folder.bat'. This starts an incremental backup of your home folder into folder 'my-backup/Backup_of_Home_Folder'. 
 3. Execute all other corresponding scripts.
