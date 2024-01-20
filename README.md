@@ -20,6 +20,6 @@ Backup your Data
 
 Recover your Data
 -----------------
-1. Insert the correct backup disk into your computer.
+1. Insert the correct(!) backup disk into your computer.
 2. Manually copy (not move!) the missing files and folders from the backup disk onto your media.
 3. Eject the backup disk and store it in a safe place.
