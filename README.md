@@ -21,7 +21,7 @@ This repo contains instructions for a professional and comfortable backup of you
 🪂 Recover your Data
 ---------------------
 1. Insert the correct(!) backup disk into the computer.
-2. Open the top folder **📁my-backups**,  then open the corresponding **📁Backup_of_...** folder.
+2. Open the folder **📁my-backups/Backup_of_...**.
 3. Manually copy (not move!) the missing files and folders onto your media.
 4. Eject the backup disk and store it in a safe place again.
 
