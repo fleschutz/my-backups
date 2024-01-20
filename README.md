@@ -13,7 +13,7 @@ This repo supports a professional and comfortable backup of your data. More info
 💾 Backup your Data
 --------------------
 1. Insert the next backup disk into your computer.
-2. Open the top folder 'my-backup' and execute the script 'Backup my Home Folder.bat'. This starts an incremental backup of your home folder into folder 'my-backup/Backup_of_Home_Folder'. 
+2. Open the top folder 📁my-backups and execute the script 'Backup my Home Folder.bat'. This starts an incremental backup of your home folder into folder 📁my-backups/Backup_of_Home_Folder. 
 3. Execute all other corresponding scripts.
 4. Eject the backup disk and store it in a safe place.
 5. Repeat all steps at least every week.
@@ -21,6 +21,6 @@ This repo supports a professional and comfortable backup of your data. More info
 🪂 Recover your Data
 ---------------------
 1. Insert the correct(!) backup disk into your computer.
-2. Please find your backup data in the "Backup_of_*" folders.
+2. Open the top folder 📁my-backups and you will find your backup data in the 📁Backup_of_* folders.
 3. Manually copy (not move!) the missing files and folders onto your media.
 4. Eject the backup disk and store it in a safe place again.
