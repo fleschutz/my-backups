@@ -1,7 +1,7 @@
 Data Backup & Recovery
 ======================
 
-This repo supports a professional and comfortable backup of your data.
+This repo contains instructions for a professional and comfortable backup of your data.
 
 🔧 Preparation
 ---------------
