@@ -1,11 +1,11 @@
-Data Backup & Recovery
-======================
+Data Backups & Recovery
+=======================
 
-This repo contains instructions and scripts for a professional and comfortable local backup of your data.
+This repository contains instructions and scripts for a professional and comfortable local backup of your data.
 
 🔧 Planning & Preparation
 --------------------------
-1. Read the [docs](docs) to plan your personal backup strategy.
+1. Read the [docs](docs) first to plan your personal backup strategy.
 2. Required are one or more SSD's or harddisks (*"backup disks"*) with enough capacity to hold your data.
 3. Take a backup disk and write/print the disk size and a unique name onto it (e.g. *"2TB LAPTOP BACKUP"*), then insert it into the computer and rename the disk using the same name.
 4. Download this repo (see green button) and unzip it into the top folder of your backup disk.
@@ -13,19 +13,15 @@ This repo contains instructions and scripts for a professional and comfortable l
 
 💾 Backup your Data
 --------------------
-1. Insert the next backup disk into your computer and open the top folder **📁my-backups**.
-2. Execute the script **Backup my Home Folder.bat** to start an incremental backup of your home folder into folder **📁my-backups/Backup_of_Home_Folder**. 
-3. Execute all other corresponding scripts.
-4. Eject the backup disk and store it in a safe place.
+1. Connect the next backup disk with the computer and open the top folder **📁my-backups**.
+2. Execute the script **📄Backup_my_Home_Folder.bat** to start an incremental backup of your home folder into folder **📁my-backups/Backup_of_Home_Folder**. 
+3. Execute any other appropriate script.
+4. Disconnect the backup disk and store it in a safe place.
 5. Repeat all steps at least every week.
 
 🪂 Recover your Data
 ---------------------
-1. Select the correct(!) backup disk. Read the the [docs](docs) in case it's damaged.
-2. Insert it into the computer and open the folder **📁my-backups/Backup_of_...**.
+1. Select the correct(!) backup disk. In case it's damaged read the the [docs](docs), first!
+2. Connect the backup disk to the computer and open the corresponding folder **📁my-backups/Backup_of_...**.
 3. Manually copy (not move!) the missing files and folders onto your media.
-4. Eject the backup disk and store it in a safe place again.
-
-❓ Any Questions?
-------------------
-More and detailled information can be found in the [docs](docs) folder.
+4. Disconnect the backup disk and store it in a safe place again.
