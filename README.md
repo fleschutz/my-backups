@@ -21,7 +21,12 @@ This repository contains instructions and scripts for a professional and comfort
 
 🪂 Recover your Data
 ---------------------
-1. Select the correct(!) backup disk. In case it's damaged read the the [docs](docs), first!
+1. Select the correct(!) backup disk. 
 2. Connect the backup disk to the computer and open the corresponding folder **📁my-backups/Backup_of_...**.
 3. Manually copy (not move!) the missing files and folders onto your media.
 4. Disconnect the backup disk and store it in a safe place again.
+
+General Notes
+-------------
+* Read the [docs](docs) if you have questions or the backup disk is damaged!
+* The scripts perform an incremental backup! At first it's a full backup (might take a lot of time), then only differences are copied (way faster).
