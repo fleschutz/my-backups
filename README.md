@@ -22,7 +22,7 @@ This repository contains instructions and scripts for a professional and comfort
 🪂 Recover your Data
 ---------------------
 1. Connect the correct(!) backup disk to the computer and open the corresponding folder **📁my-backups/Backup_of_...**.
-2. Manually copy (not move!) the missing files and folders onto your media.
+2. Copy (not move!) the missing or corrupted files and folders back to the computer.
 3. Disconnect the backup disk and store it in a safe place again.
 
 General Notes
