@@ -29,7 +29,7 @@ This repository contains instructions and scripts for a professional and comfort
 ---------
 * Read the [docs](docs) if you have questions or if the backup disk is damaged.
 * An incremental backup is used! The first time it's a slow full backup, but the next time only differences are copied (way faster).
-* The data backup is not encrypted (to keep it simple and robust). Use an encryption program and a vault to protect your backup against physical access.
+* The backup is not encrypted to keep it simple and robust. Use an encryption program and a vault to protect your backup against unauthorized physical access.
 * We strongly recommend to follow the 3-2-1 rule of backups: (3) Keep 3 copies of any important file: 1 primary and 2 backups. (2) Keep the files on 2 different media types to protect against different types of hazards. (1) Store 1 copy offsite (e.g., outside your home or business facility).
 * DISCLAIMER: All informations are given according to my best knowledge, but without guarantee. 
 
