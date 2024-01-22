@@ -13,7 +13,7 @@ This repository contains instructions and scripts for a professional and comfort
 
 💾 Backup your Data
 --------------------
-1. Connect the next backup disk with the computer and open the top folder **📁my-backups**.
+1. Connect the next(!) backup disk to the computer and open the top folder **📁my-backups/scripts**.
 2. Execute the script **📄Backup_my_Home_Folder.bat** to start an incremental backup of your home folder into folder **📁my-backups/Backup_of_Home_Folder**. 
 3. Execute any other appropriate script.
 4. Disconnect the backup disk and store it in a safe place.
@@ -21,10 +21,9 @@ This repository contains instructions and scripts for a professional and comfort
 
 🪂 Recover your Data
 ---------------------
-1. Select the correct(!) backup disk. 
-2. Connect the backup disk to the computer and open the corresponding folder **📁my-backups/Backup_of_...**.
-3. Manually copy (not move!) the missing files and folders onto your media.
-4. Disconnect the backup disk and store it in a safe place again.
+1. Connect the correct(!) backup disk to the computer and open the corresponding folder **📁my-backups/Backup_of_...**.
+2. Manually copy (not move!) the missing files and folders onto your media.
+3. Disconnect the backup disk and store it in a safe place again.
 
 General Notes
 -------------
