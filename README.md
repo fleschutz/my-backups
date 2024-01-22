@@ -28,5 +28,5 @@ This repository contains instructions and scripts for a professional and comfort
 
 General Notes
 -------------
-* Read the [docs](docs) if you have questions or the backup disk is damaged!
-* The scripts perform an incremental backup! At first it's a full backup (might take a lot of time), then only differences are copied (way faster).
+* Read the [docs](docs) if you have questions or the backup disk is damaged.
+* All scripts perform an incremental backup! At first it's a full backup (might take a lot of time), the next time only differences are copied (way faster).
