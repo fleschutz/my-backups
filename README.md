@@ -13,7 +13,7 @@ This repository contains instructions and scripts for a professional and comfort
 
 💾 Backup your Data
 --------------------
-1. Connect the next(!) backup disk to the computer and open the top folder **📁my-backups/scripts**.
+1. Connect the next backup disk to the computer and open the top folder **📁my-backups/scripts**.
 2. Execute the script **📄Backup_my_Home_Folder.bat** to start an incremental backup of your home folder into folder **📁my-backups/Backup_of_Home_Folder**. 
 3. Execute any other appropriate script.
 4. Disconnect the backup disk and store it in a safe place.
