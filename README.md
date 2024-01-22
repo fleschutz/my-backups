@@ -25,11 +25,11 @@ This repository contains instructions and scripts for a professional and comfort
 2. Copy (not move!) the missing or corrupted files and folders back to the computer.
 3. Disconnect the backup disk and store it in a safe place again.
 
-General Notes
--------------
-* Read the [docs](docs) if you have questions or in case the backup disk is damaged.
+⚠️ Notes
+---------
+* Read the [docs](docs) if you have questions or if the backup disk is damaged.
 * All scripts perform an incremental backup! At first it's a full backup (might take a lot of time), the next time only differences are copied (way faster).
-* The data backup is not encrypted (to keep it simple and robust). Use an encryption program to protect your backup against physical access.
+* The data backup is not encrypted (to keep it simple and robust). Use an encryption program and a vault to protect your backup against physical access.
 * We strongly recommend to follow the 3-2-1 rule of backups: (3) Keep 3 copies of any important file: 1 primary and 2 backups. (2) Keep the files on 2 different media types to protect against different types of hazards. (1) Store 1 copy offsite (e.g., outside your home or business facility).
 * DISCLAIMER: All informations are given according to my best knowledge, but without guarantee. 
 
