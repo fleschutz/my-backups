@@ -5,13 +5,19 @@ set "SRC=M:\"
 set "DST=%~dp0..\Backup_of_drive_M\"
 set OPTIONS=/MIR /FFT /MT:8
 
-echo ------------------------------------------
-echo Creating an Incremental Backup of Drive M:
-echo ------------------------------------------
+echo ###################################
+echo #                                 #
+echo #   Saving a Backup of Drive M:   #
+echo #                                 #
+echo ###################################
+echo.
 echo.
 echo  Source : %SRC%
+echo.
 echo  Target : %DST%
-echo Options : %OPTIONS%
+echo.
+echo Options : %OPTIONS% (mirror data, use 8 threads)
+echo.
 echo.
 pause
 
