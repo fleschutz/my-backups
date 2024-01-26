@@ -51,6 +51,8 @@ Glossary (by Wikipedia)
 
 **Retention time:** the amount of time in which a given set of data will remain available for restore. Some backup products rely on daily copies of data and measure retention in terms of days. Others retain a number of copies of data changes regardless of the amount of time.
 
+**Robocopy** is a command-line file transfer utility for Microsoft Windows. Robocopy is functionally more comprehensive than the COPY command and XCOPY, but replaces neither. Created by Kevin Allen and first released as part of the Windows NT 4.0 Resource Kit, it has been a standard feature of Windows since Windows Vista and Windows Server 2008.
+
 **Site-to-site backup:** backup, over the internet, to an offsite location under the user's control. Similar to remote backup except that the owner of the data maintains control of the storage location.
 
 **Synthetic backup:** a restorable backup image that is synthesized on the backup server from a previous full backup and all the incremental backups since then. It is equivalent to what a full backup would be if it were taken at the time of the last incremental backup.
