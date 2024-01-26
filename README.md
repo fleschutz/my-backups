@@ -8,7 +8,7 @@ This repository contains instructions and scripts for a professional and comfort
 1. Read the [docs](docs) first to plan your personal backup strategy.
 2. Required are one or more SSD's or harddisks (*"backup disks"*) with enough capacity to hold your data.
 3. To prevent confusion take a backup disk and write/print the disk size and a unique name onto it (e.g. *"2TB LAPTOP BACKUP"*), then insert it into the computer and rename the disk using the same name.
-4. Download this repo (see green button) and unzip it into the top folder of your backup disk.
+4. Download this zipped repo (6.7MB, see green button) and unzip it into the top folder of your backup disk.
 5. Repeat steps 3 and 4 for each backup disk.
 
 💾 Backup your Data
