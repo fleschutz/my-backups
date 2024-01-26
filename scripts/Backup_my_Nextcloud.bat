@@ -1,9 +1,9 @@
 @echo off
-
 title Backup my Nextcloud...
+
 set "SRC=%HOMEDRIVE%%HOMEPATH%\Nextcloud\"
 set "DST=%~dp0..\Backup_of_Nextcloud\"
-set OPTIONS=/MIR /FFT /MT:8
+set OPTIONS=/MIR /FFT /MT:8 /xa:o
 
 echo ##############################################
 echo #                                            #
