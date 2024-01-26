@@ -1,8 +1,8 @@
 @echo off
 
 title Backup my Dropbox ...
-set "SRC=%HOMEPATH%\Dropbox\"
-set "DST=%~dp0\Backup_of_Dropbox\"
+set "SRC=%HOMEDRIVE%%HOMEPATH%\Dropbox\"
+set "DST=%~dp0..\Backup_of_Dropbox\"
 set OPTIONS=/MIR /FFT /MT:8
 
 echo -----------------------------------------
