@@ -14,10 +14,9 @@ This repository contains instructions and scripts for a professional and comfort
 💾 Backup your Data
 --------------------
 1. Connect the next backup disk to the computer and open the top folder **📁my-backups** and then **📁scripts**.
-2. Execute the script **📄Backup_my_Home_Folder.bat** to copy your home folder into the new folder **📁Backup_of_Home_Folder**. 
-3. Execute any other appropriate script.
-4. Disconnect the backup disk and store it in a safe place.
-5. Repeat all steps at least every week.
+2. As an example execute the script **📄Backup_my_Home_Folder.bat** to save your home folder. Afterward, execute any other appropriate script.
+3. Disconnect the backup disk and store it in a safe place.
+4. Repeat all steps at least every week.
 
 🪂 Recover your Data
 ---------------------
