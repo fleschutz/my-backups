@@ -1,13 +1,13 @@
 @echo off
-title Backup my drive D: ...
+title Backup my drive E: ...
 
-set "SRC=D:\"
-set "DST=%~dp0..\Backup_of_drive_D\"
+set "SRC=E:\"
+set "DST=%~dp0..\Backup_of_drive_E\"
 set OPTIONS=/MIR /FFT /MT:8
 
 echo ###################################
 echo #                                 #
-echo #   Saving a Backup of Drive D:   #
+echo #   Saving a Backup of Drive E:   #
 echo #                                 #
 echo ###################################
 echo.
@@ -24,7 +24,7 @@ pause
 if not exist "%DST%" mkdir "%DST%"
 robocopy %SRC% %DST% %OPTIONS%
 echo.
-echo SUCCESS - drive D: has been backed up. See you again in the next days...
+echo SUCCESS - drive E: has been backed up. See you again in the next days...
 echo.
 pause
 exit 0
