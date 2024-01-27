@@ -14,14 +14,14 @@ This repository contains instructions, scripts, and documents for a professional
 💾 Backup your Data
 --------------------
 1. Connect the next backup disk to the computer and open the top folder **📁my-backups** and then **📁scripts**.
-2. Execute a script, e.g. **📄Backup_my_Home_Folder.bat** to copy your home folder into  **📁my-backups**. Afterward, execute any other appropriate script.
+2. Execute a script, e.g. **📄Backup_my_Downloads.bat** to copy your download folder into  **📁my-backups**. Afterward, execute any other appropriate script.
 3. Disconnect the backup disk and store it in a safe place.
 4. Repeat all steps at least every week.
 
 🪂 Recover your Data
 ---------------------
-1. Connect the correct(!) backup disk to the computer and open the top folder **📁my-backups** and then the corresponding folder **📁Backup_of_...**.
-2. Copy (not move!) the missing or corrupted data back to the computer.
+1. Connect the correct(!) backup disk to the computer and open the top folder **📁my-backups** and then e.g. **📁Backup_of_Downloads**.
+2. Copy (not move!) the missing or corrupted files & folders back to the computer.
 3. Disconnect the backup disk and store it in a safe place again.
 
 ⚠️ Notes
