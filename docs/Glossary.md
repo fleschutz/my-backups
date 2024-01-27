@@ -1,5 +1,5 @@
-Glossary (by Wikipedia)
-=======================
+Glossary
+========
 
 **3-2-1 Rule (or 3-2-1 Backup Strategy):** The idea that a minimal backup solution should include three copies of the data, including two local copies and one remote copy.
 
@@ -62,3 +62,5 @@ Glossary (by Wikipedia)
 **Trusted paper key:** a machine-readable print of a cryptographic key.
 
 **Virtual Tape Library (VTL):** a storage device that appears to be a tape library to backup software, but actually stores data by some other means. A VTL can be configured as a temporary storage location before data is actually sent to real tapes or it can be the final storage location itself.
+
+**Source:** Wikipedia
