@@ -1,5 +1,5 @@
-Data Backups & Recovery - Version 1.0
-=====================================
+Personal Data Backups & Recovery - Version 1.0
+==============================================
 
 This repository contains instructions, scripts, and documents for a professional and comfortable local backup of your data.
 
