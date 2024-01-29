@@ -1,28 +1,28 @@
 @echo off
-title Backup my drive M: ...
+title Backup my drive M:...
 
-set "SRC=M:\"
-set "DST=%~dp0..\Backup_of_drive_M\"
+set "SOURCE=M:\"
+set "TARGET=%~dp0..\Backup_of_drive_M\"
 set OPTIONS=/MIR /FFT /MT:8
 
 echo ###################################
 echo #                                 #
-echo #   Saving a Backup of Drive M:   #
+echo #   Backup Details for Drive M:   #
 echo #                                 #
 echo ###################################
 echo.
 echo.
-echo  Source : %SRC%
+echo  Source : %SOURCE%
 echo.
-echo  Target : %DST%
+echo  Target : %TARGET%
 echo.
 echo Options : %OPTIONS% (mirror data, use 8 threads)
 echo.
 echo.
 pause
 
-if not exist "%DST%" mkdir "%DST%"
-robocopy %SRC% %DST% %OPTIONS%
+if not exist "%TARGET%" mkdir "%TARGET%"
+robocopy %SOURCE% %TARGET% %OPTIONS%
 echo.
 echo SUCCESS - drive M: has been backed up. See you again in the next days...
 echo.
