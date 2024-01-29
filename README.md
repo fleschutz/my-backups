@@ -1,7 +1,7 @@
-Personal Data Backups & Recovery - Version 1.0
-==============================================
+Personal Data Backups & Recovery
+================================
 
-This repository contains instructions, scripts, and documents for a professional and comfortable local backup of your data.
+This repository in version 1.0 contains instructions, scripts, and documents for a professional and comfortable local backup of your data.
 
 🔧 Planning & Preparation
 --------------------------
