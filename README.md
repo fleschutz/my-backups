@@ -20,7 +20,7 @@ This repository in version 1.0 contains instructions, scripts, and documents for
 🪂 Recover your Data
 ---------------------
 1. Don't panic, just follow the steps.
-2. Select the **correct** backup disk with the latest backup. In case the disk is damaged read the [documents](docs/), please.
+2. Select the backup disk with he **latest** backup. In case the disk is damaged read the [documents](docs/), please.
 3. Connect the disk with the computer and open the top folder **📁my-backups** and then e.g. **📁Backup_of_Downloads**.
 4. Copy (not move!) the missing or corrupted files & folders back to the computer.
 5. Disconnect the backup disk and store it in a safe place again.
