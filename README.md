@@ -5,7 +5,7 @@ This repository in version 1.0 contains instructions, scripts, and documents for
 
 🔧 Planning & Preparation
 --------------------------
-1. Read the [docs](docs) first to plan your personal backup strategy.
+1. Read the [documents](docs/) first to plan your personal backup strategy.
 2. Required are one or more SSD's or harddisks (*"backup disks"*) with enough capacity to hold your data.
 3. Take the backup disks and write/print the disk size and a unique name onto them (e.g. *"2TB LAPTOP BACKUP"*), then connect them with the computer and rename the disks using the same name.
 4. Download this zipped repo (6.7MB, see green button) and unzip it into the top folder of each backup disk.
@@ -20,14 +20,13 @@ This repository in version 1.0 contains instructions, scripts, and documents for
 🪂 Recover your Data
 ---------------------
 1. Don't panic, just follow the steps.
-2. Select the correct(!) backup disk. In case it's damaged read the docs, please.
+2. Select the correct(!) backup disk. In case it's damaged read the [documents](docs/), please.
 3. Connect the disk with the computer and open the top folder **📁my-backups** and then e.g. **📁Backup_of_Downloads**.
 4. Copy (not move!) the missing or corrupted files & folders back to the computer.
 5. Disconnect the backup disk and store it in a safe place again.
 
 ⚠️ Notes
 ---------
-* Read the [docs](docs) if you have questions.
 * The first time it's always a full backup (slow for big data), but next time only differences are copied (way way faster).
 * We strongly recommend to follow at least the **3-2-1 rule** of backups: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility).
 * Keep at least one backup offline to protect against ransomware attacks.
