@@ -3,7 +3,7 @@ Personal Data Backups & Recovery
 
 This repository in version 1.0 contains instructions, scripts, and documents for a professional and comfortable local backup of your data.
 
-🔧 Planning & Preparation
+📋 Planning & Preparation
 --------------------------
 1. Read the [documents](docs/) first to plan your personal backup strategy.
 2. Required are one or more SSD's or harddisks (*"backup disks"*) with enough capacity to hold your data.
@@ -15,7 +15,7 @@ This repository in version 1.0 contains instructions, scripts, and documents for
 1. Connect the next backup disk to the computer and open the top folder **📁my-backups** and then **📁scripts**.
 2. Execute a script, e.g. **📄Backup_my_Downloads.bat** to copy your download folder into  **📁my-backups**. Afterward, execute any other appropriate script.
 3. Disconnect the backup disk and store it in a safe place.
-4. Repeat all steps at least every week.
+4. Repeat steps 1-3 every day/week/month.
 
 🪂 Recover your Data
 ---------------------
