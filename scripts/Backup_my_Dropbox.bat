@@ -5,11 +5,11 @@ set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Dropbox\"
 set "TARGET=%~dp0..\Backup_of_Dropbox\"
 set OPTIONS=/MIR /FFT /MT:8 /xa:o
 
-echo #############################################
-echo #                                           #
-echo #   Backup Details for the Dropbox Folder   #
-echo #                                           #
-echo #############################################
+echo #################################
+echo #                               #
+echo #   Backup the Dropbox Folder   #
+echo #                               #
+echo #################################
 echo.
 echo.
 echo  Source : %SOURCE%
@@ -17,6 +17,8 @@ echo.
 echo  Target : %TARGET%
 echo.
 echo Options : %OPTIONS% (mirror data, use 8 threads)
+echo.
+echo    Note : double-check source and target!
 echo.
 echo.
 pause
