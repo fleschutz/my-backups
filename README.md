@@ -12,8 +12,8 @@ This repository in version 1.0 contains instructions, scripts, and documents for
 
 💾 Backup your Data
 --------------------
-1. Connect the next backup disk to the computer and open the top folder **📁my-backups** and then **📁scripts**.
-2. Execute a script, e.g. **📄Backup_my_Downloads.bat** to copy your download folder into  **📁my-backups**. Afterward, execute any other appropriate script.
+1. Connect the next backup disk to the computer and open the top folder *📁my-backups* and then *📁scripts*.
+2. Execute a script, e.g. **📄Backup_my_Downloads.bat** to copy your download folder into  *📁my-backups*. Afterward, execute any other appropriate script.
 3. Disconnect the backup disk and store it in a safe place.
 4. Repeat steps 1-3 every day/week/month.
 
@@ -21,7 +21,7 @@ This repository in version 1.0 contains instructions, scripts, and documents for
 ---------------------
 1. Don't panic, just follow the steps.
 2. Select the backup disk with he **latest** backup. In case the disk is damaged read the [documents](docs/), please.
-3. Connect the disk with the computer and open the top folder **📁my-backups** and then e.g. **📁Backup_of_Downloads**.
+3. Connect the disk with the computer and open the top folder *📁my-backups* and then e.g. *📁Backup_of_Downloads*.
 4. Copy (not move!) the missing or corrupted files & folders back to the computer.
 5. Disconnect the backup disk and store it in a safe place again.
 
