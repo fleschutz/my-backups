@@ -1,5 +1,5 @@
-Personal Backups and Data Recovery
-==================================
+Personal Backups Made Easy
+==========================
 
 This repository contains instructions, scripts, and documents for a professional and comfortable local backup of your data.
 
