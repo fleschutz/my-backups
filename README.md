@@ -28,7 +28,7 @@ This repository contains instructions, scripts, and documents for a professional
 ⚠️ Notes
 ---------
 * The first backup is always a full backup (slow for big data), but the next time only differences are copied (way way faster).
-* We strongly recommend to follow at least the **3-2-1 rule** of backups: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility).
+* Strongly recommended is at least the **3-2-1 rule**: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility).
 * Keep at least one backup offline to protect against ransomware attacks.
 * The backup is not encrypted to keep everything simple and robust. Use an encryption program and a vault to protect your backup against unauthorized physical access.
 * DISCLAIMER: All informations are given according to my best knowledge, but without guarantee.
