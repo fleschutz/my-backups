@@ -1,5 +1,5 @@
-Personal Data Backups & Recovery
-================================
+Personal Backups and Data Recovery
+==================================
 
 This repository contains instructions, scripts, and documents for a professional and comfortable local backup of your data.
 
@@ -15,7 +15,7 @@ This repository contains instructions, scripts, and documents for a professional
 1. Connect the next backup disk to the computer and open the top folder 📁*my-backups* and then 📁*scripts*.
 2. Execute a script, e.g. 📄*Backup_my_Downloads.bat* to copy your download folder into  📁*my-backups*. Afterward, execute any other appropriate script.
 3. Disconnect the backup disk and store it in a safe place.
-4. Repeat steps 1-3 every day/week/month.
+4. Repeat the steps according to your backup plan.
 
 🪂 Recover your Data
 ---------------------
