@@ -19,10 +19,10 @@ This repository contains instructions, scripts, and documents for a professional
 
 🪂 Recover your Data
 ---------------------
-1. Don't panic, just follow the steps.
-2. Select the backup disk with he **latest** backup. In case the disk is damaged read the [documents](docs/), please.
+1. Select the backup disk with the **latest** backup.
+2. Check the backup disk - in case it's damaged read the [documents](docs/), please.
 3. Connect the disk with the computer and open the top folder 📁*my-backups* and then e.g. 📁*Backup_of_Downloads*.
-4. Copy (not move!) the missing or corrupted files & folders back to the computer.
+4. Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but don't move data!).
 5. Disconnect the backup disk and store it in a safe place again.
 
 ⚠️ Notes
