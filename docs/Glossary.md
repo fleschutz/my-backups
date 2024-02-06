@@ -94,3 +94,5 @@ Tape backup also includes the ability to restore data that has been backed up ba
 **Trusted paper key:** a machine-readable print of a cryptographic key.
 
 **Virtual Tape Library (VTL):** a storage device that appears to be a tape library to backup software, but actually stores data by some other means. A VTL can be configured as a temporary storage location before data is actually sent to real tapes or it can be the final storage location itself.
+
+**World backup day:** it's a commemorative date (on March, 31) celebrated annually by the backup industry and tech industry all over the world.It highlights the importance of protecting data and keeping systems and computers secure.
