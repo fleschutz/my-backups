@@ -22,7 +22,7 @@ This repository contains instructions, scripts, and documents for a professional
 1. Select the backup disk with the **latest** backup.
 2. Check the backup disk - in case it's damaged read the [documents](docs/), please.
 3. Connect the disk with the computer and open the top folder 📁*my-backups* and then e.g. 📁*Backup_of_Downloads*.
-4. Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but don't move data!).
+4. Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but don't move the data!).
 5. Disconnect the backup disk and store it in a safe place again.
 
 ⚠️ Notes
