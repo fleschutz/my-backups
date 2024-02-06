@@ -19,15 +19,15 @@ This repository contains instructions, scripts, and documents for a professional
 
 🪂 Recover your Data
 ---------------------
-1. Get the backup disk with the **latest** backup.
+1. Fetch the backup disk with the **latest** backup.
 2. Check the disk - in case it's damaged read the [documents](docs/), please.
 3. Connect the disk with the computer and open the top folder 📁*my-backups* and then e.g. 📁*Backup_of_Downloads*.
-4. Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but don't move the data!).
+4. Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but don't move the data).
 5. Disconnect the disk and store it in the secure, separate location again.
 
 ⚠️ Notes
 ---------
-* The first backup is always a full backup (slow for big data), but the next time only differences are copied (way way faster).
+* At first a full backup is made (slow for big data), but then only changed files/folders are copied (way faster).
 * Strongly recommended is at least the **3-2-1 rule**: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility).
 * One of these copies should be stored offline to protect against ransomware attacks.
 * The backup isn't encrypted to keep it simple and robust! Use an encryption program and a vault to protect your backup against unauthorized physical access.
