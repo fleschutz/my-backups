@@ -5,6 +5,9 @@ Backup Terms Glossary
 
 **Automated backup:** an automated backup is a scheduled backup configured to run daily, weekly or monthly. The backup does not need to be performed manually because the application will start and execute the backup at its scheduled time. A notification email containing the backup log can be sent to an email address. When a problem appears, the administrator will be notified about that by email.
 
+**Backup disaster recovery:** a backup disaster recovery is the process, policies, and procedures related to preparing for recovery or continuation of technology infrastructure critical to an organization after a natural or human-induced disaster.
+Disaster recovery planning is a subset of a larger process known as business continuity planning and should include planning for resumption of applications, data, hardware, communications (such as networking) and other IT infrastructure. A business continuity plan includes planning for non-IT related aspects such as key personnel, facilities, crisis communication and reputation protection, and should refer to the disaster recovery plan (DRP) for IT related infrastructure recovery/continuity.
+
 **Backup policy:** an organization's procedures and rules for ensuring that adequate numbers and types of backups are made, including suitably frequent testing of the process for restoring the original production system from the backup copies.
 
 **Backup procedure:** a backup procedure represents the way you back up your files. Any backup procedure starts with a concept of a data repository. The backup data needs to be stored and organized. Therefore, it's important to establish your backup procedure before choosing the backup solution that is right for you. Different backup procedures have different advantages.
@@ -14,6 +17,8 @@ Backup Terms Glossary
 **Backup site:** a place where business can continue after a data loss event. Such a site may have ready access to the backups or possibly even a continuously updated mirror.
 
 **Backup software:** computer software applications that are used for performing the backing up of data, e.g., the systematic generation of backup copies.
+
+**Backup types:** the four fundamental backup types are the full backup, differential backup, incremental backup and mirror backup. Full, differential and incremental creates zipped backups while the mirror backup type creates in destination an exact copy of the source files.
 
 **Backup window:** the period of time that a system is available to perform a backup procedure. Backup procedures can have detrimental effects to system and network performance, sometimes requiring the primary use of the system to be suspended. These effects can be mitigated by arranging a backup window with the users or owners of the system(s).
 
@@ -39,9 +44,12 @@ Continuous backup is a service that captures changes to data to a separate stora
 
 **Disk image:** single file or storage device containing the complete contents and structure representing a data storage medium or device, such as a hard drive, tape drive, floppy disk, CD/DVD/BD, or USB flash drive.
 
-**Full backup:** a backup of all (selected) files on the system. In contrast to a drive image, this does not included the file allocation tables, partition structure and boot sectors.
+**Full backup:** it's a backup of all source files to the destination. In contrast to a drive image, this does not included the file allocation tables, partition structure and boot sectors. It is the starting point of all other backup types.
 
 **Hot backup:** a backup of a database that is still running, and so changes may be made to the data while it is being backed up. Some database engines keep a record of all entries changed, including the complete new value. This can be used to resolve changes made during the backup.
+
+**Image backup:** an image backup is a backup of an entire hard drive by means of creating its image and its probable consequential backup. It allows, in case of a disaster, by restoring a disk image to have the exact same system state as on the moment of the initial image backup.
+Some backup programs only back up user files, boot information and files locked by the operating system, such as those in use at the time of the backup, may not be saved on some operating systems. A disk image contains all files, faithfully replicating all data.
 
 **Incremental backup:** a backup that only contains the files that have changed since the most recent backup (either full or incremental). The advantage of this is quicker backup times, as only changed files need to be saved. The disadvantage is longer recovery times, as the latest full backup, and all incremental backups up to the date of data loss need to be restored.
 
@@ -57,7 +65,7 @@ Continuous backup is a service that captures changes to data to a separate stora
 
 **Online backup storage:** the online backup storage is an offsite server used to store personal data files and folders, or the entire contents of a hard drive which is backed up by multiple computers over the Internet.
 
-**Open file backup:** the ability to back up a file while it is in use by another application. See File locking.
+**Open file backup:** the ability to back up a file/folder while it is in use by another application.
 
 **Remote store:** backing up data to an offsite permanent backup facility, either directly from the live data source or else from an intermediate near store device.
 
