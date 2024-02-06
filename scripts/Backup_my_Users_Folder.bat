@@ -17,14 +17,19 @@ echo  Target : %TARGET%
 echo.
 echo Options : %OPTIONS%
 echo.
-echo    Note : double-check source and target!
+echo    Note : double-check source and target before pressing [RETURN]
 echo.
 pause
 
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
+
 echo.
-echo SUCCESS - the Users Folder has been backed up. See you again in the next days...
+echo         #
+echo        #
+echo   #   #     Backup of Users folder succeeded. 
+echo    # #
+echo     #            
 echo.
 pause
 exit 0
