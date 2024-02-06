@@ -1,17 +1,29 @@
-Glossary
+Backup Terms Glossary
 ========
 
-**3-2-1 Rule (or 3-2-1 Backup Strategy):** The idea that a minimal backup solution should include three copies of the data, including two local copies and one remote copy.
+**3-2-1 Rule (or 3-2-1 backup strategy):** The idea that a minimal backup solution should include three copies of the data, including two local copies and one remote copy.
+
+**Automated backup:** an automated backup is a scheduled backup configured to run daily, weekly or monthly. The backup does not need to be performed manually because the application will start and execute the backup at its scheduled time. A notification email containing the backup log can be sent to an email address. When a problem appears, the administrator will be notified about that by email.
 
 **Backup policy:** an organization's procedures and rules for ensuring that adequate numbers and types of backups are made, including suitably frequent testing of the process for restoring the original production system from the backup copies.
+
+**Backup procedure:** a backup procedure represents the way you back up your files. Any backup procedure starts with a concept of a data repository. The backup data needs to be stored and organized. Therefore, it's important to establish your backup procedure before choosing the backup solution that is right for you. Different backup procedures have different advantages.
 
 **Backup rotation scheme:** a method for effectively backing up data where multiple media are systematically moved from storage to usage in the backup process and back to storage. There are several different schemes. Each takes a different approach to balance the need for a long retention period with frequently backing up changes. Some schemes are more complicated than others.
 
 **Backup site:** a place where business can continue after a data loss event. Such a site may have ready access to the backups or possibly even a continuously updated mirror.
 
-**Backup software:** computer software applications that are used for performing the backing up of data, i.e., the systematic generation of backup copies.
+**Backup software:** computer software applications that are used for performing the backing up of data, e.g., the systematic generation of backup copies.
 
 **Backup window:** the period of time that a system is available to perform a backup procedure. Backup procedures can have detrimental effects to system and network performance, sometimes requiring the primary use of the system to be suspended. These effects can be mitigated by arranging a backup window with the users or owners of the system(s).
+
+**Bare metal backup:** this is a technique in the field of data backup where the backed up data is available in a form which allows one to restore a computer system from "bare metal", i.e. without any requirements as to previously installed software or operating system.
+Typically, the backed up data include the necessary operating system, applications, and data components to rebuild or restore the backed up system to an entirely separate piece of hardware.
+Bare metal backup differs from local disk image backup where a copy of the disk image, and the backup software, are stored on the computer that is backed up.
+Bare metal backup differs from simple data backups where application data, but neither the applications nor the operating system is backed up or restored as a unit.
+
+**Continuous backup:**  the continuous backup, also called Continuous data protection (CDP) or real-time backup, refers to backup of computer data by automatically saving a copy of every change made to that data, essentially capturing every version of the data that the user saves. It allows the user or administrator to restore data to any point in time.
+Continuous backup is a service that captures changes to data to a separate storage location. There are multiple methods for capturing the continuous changes involving different technologies that serve different needs. Continuous backup based solutions can provide fine granularities of restorable objects ranging from crash-consistent images to logical objects such as files, mailboxes, messages, and database files and logs.
 
 **Copy backup:** backs up the selected files, but does not mark the files as backed up (reset the archive bit). This is found in the backup with Windows 2003.
 
@@ -43,6 +55,8 @@ Glossary
 
 **Near store:** provisionally backing up data to a local staging backup device, possibly for later archival backup to a remote store device.
 
+**Online backup storage:** the online backup storage is an offsite server used to store personal data files and folders, or the entire contents of a hard drive which is backed up by multiple computers over the Internet.
+
 **Open file backup:** the ability to back up a file while it is in use by another application. See File locking.
 
 **Remote store:** backing up data to an offsite permanent backup facility, either directly from the live data source or else from an intermediate near store device.
@@ -53,14 +67,22 @@ Glossary
 
 **Robocopy** is a command-line file transfer utility for Microsoft Windows. Robocopy is functionally more comprehensive than the COPY command and XCOPY, but replaces neither. Created by Kevin Allen and first released as part of the Windows NT 4.0 Resource Kit, it has been a standard feature of Windows since Windows Vista and Windows Server 2008.
 
+**Recovery point objectives (RPO)** is the amount of time between your data backups, whether that’s 24 hours or a month, and understanding that this is the span of time for which you’ll lose your data in the event of an incident. The shorter your RPO, the less data you lose, and vice versa.
+
+**Recovery time objectives (RTO)** is the time it takes to restore your data. Generally, the faster or more streamlined your storage solution, the faster your recovery time will be. 
+
 **Site-to-site backup:** backup, over the internet, to an offsite location under the user's control. Similar to remote backup except that the owner of the data maintains control of the storage location.
 
 **Synthetic backup:** a restorable backup image that is synthesized on the backup server from a previous full backup and all the incremental backups since then. It is equivalent to what a full backup would be if it were taken at the time of the last incremental backup.
+
+**System backup:** a system backup (or disk image) is a backup of all system files, which allows restoring the operating system to a working state after a crash. Usually, only special programs, targeted on backing up system files, can perform a system backup. Sometimes this term can be interpreted as system registry backup, i.e. backup the system and application settings stored in the registry.
+
+**Tape backup:** a tape backup means to periodically copy the contents of all or a designated amount of data from its usual storage device to a tape cartridge device. In the event of a hard disk crash or hard disk failure, the data won't be lost. A tape backup can be done manually or, with appropriate software, be scheduled to run automatically.
+Tape backup systems exist for needs ranging from backing up the hard disk on a personal computer to backing up large amounts of storage for archiving and disaster recovery purposes in a large enterprise as part of a storage area network (SAN), usually combining a hardware and software package.
+Tape backup also includes the ability to restore data that has been backed up back to hard disk storage devices when needed.
 
 **Tape library:** a storage device which contains tape drives, slots to hold tape cartridges, a barcode reader to identify tape cartridges and an automated method for physically moving tapes within the device. These devices can store immense amounts of data.
 
 **Trusted paper key:** a machine-readable print of a cryptographic key.
 
 **Virtual Tape Library (VTL):** a storage device that appears to be a tape library to backup software, but actually stores data by some other means. A VTL can be configured as a temporary storage location before data is actually sent to real tapes or it can be the final storage location itself.
-
-**Source:** Wikipedia
