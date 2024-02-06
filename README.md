@@ -13,9 +13,9 @@ This repository contains instructions, scripts, and documents for a professional
 💾 Backup your Data
 --------------------
 1. Connect the next backup disk to the computer and open the top folder 📁*my-backups* and then 📁*scripts*.
-2. Execute a script, e.g. 📄*Backup_my_Downloads.bat* to copy your download folder into  📁*my-backups*. Afterward, execute any other appropriate script.
+2. Execute a script, e.g. 📄*Backup_my_Downloads.bat* - it creates a new folder 📁*my-backups/Backup_of_Downloads* and copies the data. Repeat this for any appropriate script.
 3. Disconnect the backup disk and store it in a safe place.
-4. Repeat the steps according to your backup plan.
+4. Repeat the steps according to your backup interval.
 
 🪂 Recover your Data
 ---------------------
