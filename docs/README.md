@@ -1,7 +1,7 @@
 Essential Backup Documents
 ==========================
 
-"Important data have backups, all the rest is unimportant."
+*"Important data have backups, all the rest is unimportant."*
 
 This saying highlights the importance of data backups. So now is the time to create a backup plan and to perform backups repeatedly.
 
