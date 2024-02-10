@@ -19,7 +19,7 @@ echo  Target : %TARGET%
 echo.
 echo Options : %OPTIONS% (mirror data, use 8 threads)
 echo.
-echo    Note : check source and target, then press [RETURN]
+echo    Note : check source and target before pressing [RETURN]
 echo.
 echo.
 pause
