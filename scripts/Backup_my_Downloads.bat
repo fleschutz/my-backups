@@ -6,21 +6,26 @@ set "TARGET=%~dp0..\Backup_of_Downloads\"
 set OPTIONS=/MIR /FFT /MT:8
 set "BACKUP_HISTORY=..\Backup_History.txt"
 
-CLS
-echo ###################################
-echo #                                 #
-echo #   Backup the Downloads Folder   #
-echo #                                 #
-echo ###################################
+cls
+color 1F
+echo.
+echo       _____________________________________
+echo.
+echo            Backup the Downloads Folder
+echo       _____________________________________
 echo.
 echo.
-echo  Source : %SOURCE%
 echo.
-echo  Target : %TARGET%
+echo    Source : %SOURCE%
 echo.
-echo Options : %OPTIONS% (mirror data, use 8 threads)
+echo    Target : %TARGET%
 echo.
-echo    NOTE : check source and target before pressing [RETURN]
+echo   Options : %OPTIONS% (mirror data, use 8 threads)
+echo.
+echo      NOTE : check source and target before pressing [RETURN]
+echo.
+echo.
+echo.
 echo.
 echo.
 pause
