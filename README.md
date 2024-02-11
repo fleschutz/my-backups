@@ -12,13 +12,13 @@ This repository contains instructions, scripts, and documents for a professional
 
 💾 Backup your Data
 --------------------
-1. Connect the next backup disk to the computer and open the top folder 📁*my-backups* and then 📁*scripts*.
+1. Connect the **next** backup disk to the computer and open the top folder 📁*my-backups* and then 📁*scripts*.
 2. Execute a script, e.g. 📄*Backup_my_Downloads.bat* - it creates a new folder 📁*my-backups/Backup_of_Downloads* and copies the data into it. Repeat this for any appropriate script.
 3. Disconnect the backup disk and store it in a secure, separate location.
 
 🪂 Recover your Data
 ---------------------
-1. Fetch the backup disk with the **latest** backup.
+1. Fetch the backup disk with the **latest** backup (see 📄Backup_History.txt for verification).
 2. Check the disk - in case it's damaged read the [documents](docs/), please.
 3. Connect the disk with the computer and open the top folder 📁*my-backups* and then e.g. 📁*Backup_of_Downloads*.
 4. Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but don't move the data).
