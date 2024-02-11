@@ -24,12 +24,12 @@ pause
 
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
-echo %DATE% - %SOURCE% backed up >>%BACKUP_HISTORY%
+echo %DATE% %TIME% - %SOURCE% backed up >>%BACKUP_HISTORY%
 
 echo.
 echo         #
 echo        #
-echo   #   #     Backup of Users folder succeeded. 
+echo   #   #      Users folder backed up. 
 echo    # #
 echo     #            
 echo.
