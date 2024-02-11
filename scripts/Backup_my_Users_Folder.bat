@@ -6,6 +6,7 @@ set "TARGET=%~dp0..\Backup_of_Users_Folder\"
 set OPTIONS=/MIR /FFT /MT:8
 set "BACKUP_HISTORY=..\Backup_History.txt"
 
+CLS
 echo ###############################
 echo #                             #
 echo #   Backup the Users Folder   #
@@ -18,7 +19,7 @@ echo  Target : %TARGET%
 echo.
 echo Options : %OPTIONS%
 echo.
-echo    Note : check source and target before pressing [RETURN]
+echo    NOTE : check source and target before pressing [RETURN]
 echo.
 pause
 

@@ -6,6 +6,7 @@ set "TARGET=%~dp0..\Backup_of_drive_D\"
 set OPTIONS=/MIR /FFT /MT:8
 set "BACKUP_HISTORY=..\Backup_History.txt"
 
+CLS
 echo #######################
 echo #                     #
 echo #   Backup Drive D:   #
@@ -19,7 +20,7 @@ echo  Target : %TARGET%
 echo.
 echo Options : %OPTIONS% (mirror data, use 8 threads)
 echo.
-echo    Note : check source and target before pressing [RETURN]
+echo    NOTE : check source and target before pressing [RETURN]
 echo.
 echo.
 pause
