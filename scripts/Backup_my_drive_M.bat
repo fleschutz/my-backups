@@ -22,7 +22,7 @@ echo    Target : %TARGET%
 echo.
 echo   Options : %OPTIONS% (mirror data, use 8 threads)
 echo.
-echo      NOTE : check source and target before pressing [RETURN]
+echo      NOTE : check source and target (size) before pressing [RETURN] key.
 echo.
 echo.
 echo.
@@ -32,7 +32,7 @@ pause
 
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
-echo %DATE% %TIME% - %SOURCE% backed up >>%BACKUP_HISTORY%
+echo %DATE% %TIME% - %SOURCE% drive backed up >>%BACKUP_HISTORY%
 
 echo.
 echo         #

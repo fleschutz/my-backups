@@ -1,5 +1,5 @@
 @echo off
-title Backup my Users Folder ...
+title Backup my Users folder ...
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\..\"
 set "TARGET=%~dp0..\Backup_of_Users_Folder\"
@@ -22,7 +22,7 @@ echo    Target : %TARGET%
 echo.
 echo   Options : %OPTIONS% (mirror data, use 8 threads)
 echo.
-echo      NOTE : check source and target before pressing [RETURN]
+echo      NOTE : check source and target (size) before pressing [RETURN] key.
 echo.
 echo.
 echo.
