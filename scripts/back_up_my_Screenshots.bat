@@ -1,5 +1,5 @@
 @echo off
-title Backup my Screenshots...
+title Backup my Screenshots folder...
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Screenshots\"
 set "TARGET=%~dp0..\Backup_of_Screenshots\"
@@ -22,7 +22,7 @@ echo    Target : %TARGET%
 echo.
 echo   Options : %OPTIONS% (mirror data, use 8 threads)
 echo.
-echo      NOTE : check source and target before pressing [RETURN]
+echo      NOTE : check source and target (size) before pressing [RETURN] key.
 echo.
 echo.
 echo.

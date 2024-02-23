@@ -1,5 +1,5 @@
 @echo off
-title Backup my Nextcloud...
+title Backup my Nextcloud folder...
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Nextcloud\"
 set "TARGET=%~dp0..\Backup_of_Nextcloud\"
@@ -22,7 +22,7 @@ echo    Target : %TARGET%
 echo.
 echo   Options : %OPTIONS% (mirror data, use 8 threads)
 echo.
-echo      NOTE : check source and target before pressing [RETURN]
+echo      NOTE : check source and target (size) before pressing [RETURN] key.
 echo.
 echo.
 echo.

@@ -1,5 +1,5 @@
 @echo off
-title Backup my Desktop...
+title Backup my Desktop folder...
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Desktop\"
 set "TARGET=%~dp0..\Backup_of_Desktop\"
@@ -22,7 +22,7 @@ echo    Target : %TARGET%
 echo.
 echo   Options : %OPTIONS% (mirror data, use 8 threads)
 echo.
-echo      NOTE : check source and target before pressing [RETURN]
+echo      NOTE : check source and target (size) before pressing [RETURN]
 echo.
 echo.
 echo.
