@@ -1,5 +1,5 @@
 @echo off
-title Backup my Desktop folder...
+title Desktop Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Desktop\"
 set "TARGET=%~dp0..\Backup_of_Desktop\"
@@ -7,12 +7,11 @@ set OPTIONS=/MIR /FFT /MT:8
 set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
-color 1F
 echo.
-echo       ___________________________________
+echo       _________________________________
 echo.
-echo            Backup the Desktop Folder
-echo       ___________________________________
+echo            Desktop Folder Backup
+echo       _________________________________
 echo.
 echo.
 echo.
