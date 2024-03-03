@@ -7,7 +7,6 @@ set OPTIONS=/MIR /FFT /MT:8 /xa:o
 set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
-color 1F
 echo.
 echo       ______________________________________
 echo.
@@ -22,7 +21,7 @@ echo    Target : %TARGET%
 echo.
 echo   Options : %OPTIONS% (mirror data, use 8 threads)
 echo.
-echo      NOTE : check source and target (size) before pressing [RETURN] key.
+echo      NOTE : check source and target (+ free space left), then press [RETURN]
 echo.
 echo.
 echo.
