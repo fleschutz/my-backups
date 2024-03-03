@@ -1,5 +1,5 @@
 @echo off
-title Backup my Onedrive folder...
+title Onedrive Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Onedrive\"
 set "TARGET=%~dp0..\Backup_of_Onedrive\"
@@ -8,10 +8,10 @@ set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
 echo.
-echo       _____________________________________
+echo       _________________________________
 echo.
-echo            Backup the Onedrive Folder
-echo       _____________________________________
+echo            Onedrive Folder Backup
+echo       _________________________________
 echo.
 echo.
 echo.

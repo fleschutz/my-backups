@@ -1,5 +1,5 @@
 @echo off
-title Backup my Users folder ...
+title Users Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\..\"
 set "TARGET=%~dp0..\Backup_of_Users_Folder\"
@@ -8,10 +8,10 @@ set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
 echo.
-echo       ___________________________________
+echo       ______________________________
 echo.
-echo            Backup the Users Folder
-echo       ___________________________________
+echo            Users Folder Backup
+echo       ______________________________
 echo.
 echo.
 echo.

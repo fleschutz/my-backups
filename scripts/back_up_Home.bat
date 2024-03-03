@@ -1,5 +1,5 @@
 @echo off
-title Backup my Home folder...
+title Home Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\"
 set "TARGET=%~dp0..\Backup_of_Home_Folder\"
@@ -8,10 +8,10 @@ set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
 echo.
-echo       _________________________________
+echo       _____________________________
 echo.
-echo            Backup the Home Folder
-echo       _________________________________
+echo            Home Folder Backup
+echo       _____________________________
 echo.
 echo.
 echo.

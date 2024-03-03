@@ -1,5 +1,5 @@
 @echo off
-title Backup my Screenshots folder...
+title Screenshots Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Screenshots\"
 set "TARGET=%~dp0..\Backup_of_Screenshots\"
@@ -8,10 +8,10 @@ set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
 echo.
-echo       _______________________________________
+echo       ____________________________________
 echo.
-echo            Backup the Screenshots Folder
-echo       _______________________________________
+echo            Screenshots Folder Backup
+echo       ____________________________________
 echo.
 echo.
 echo.

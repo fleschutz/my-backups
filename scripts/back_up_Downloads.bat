@@ -1,5 +1,5 @@
 @echo off
-title Backup my Downloads folder...
+title Downloads Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Downloads\"
 set "TARGET=%~dp0..\Backup_of_Downloads\"
@@ -8,10 +8,10 @@ set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
 echo.
-echo       _____________________________________
+echo       ___________________________________
 echo.
-echo            Backup the Downloads Folder
-echo       _____________________________________
+echo            Downloads Folder Backup
+echo       ___________________________________
 echo.
 echo.
 echo.

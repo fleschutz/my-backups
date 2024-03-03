@@ -1,5 +1,5 @@
 @echo off
-title Backup my Dropbox folder...
+title Dropbox Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Dropbox\"
 set "TARGET=%~dp0..\Backup_of_Dropbox\"
@@ -8,10 +8,10 @@ set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
 echo.
-echo       _____________________________________
+echo       _________________________________
 echo.
-echo            Backup the Dropbox Folder
-echo       _____________________________________
+echo            Dropbox Folder Backup
+echo       _________________________________
 echo.
 echo.
 echo.

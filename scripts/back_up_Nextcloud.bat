@@ -1,5 +1,5 @@
 @echo off
-title Backup my Nextcloud folder...
+title Nextcloud Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Nextcloud\"
 set "TARGET=%~dp0..\Backup_of_Nextcloud\"
@@ -8,10 +8,10 @@ set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
 echo.
-echo       ______________________________________
+echo       __________________________________
 echo.
-echo            Backup the Nextcloud Folder
-echo       ______________________________________
+echo            Nextcloud Folder Backup
+echo       __________________________________
 echo.
 echo.
 echo.

@@ -1,5 +1,5 @@
 @echo off
-title Backup my drive M:...
+title Drive M: Backup
 
 set "SOURCE=M:\"
 set "TARGET=%~dp0..\Backup_of_drive_M\"
@@ -10,7 +10,7 @@ cls
 echo.
 echo       __________________________
 echo.
-echo            Backup Drive M:
+echo            Drive M: Backup
 echo       __________________________
 echo.
 echo.

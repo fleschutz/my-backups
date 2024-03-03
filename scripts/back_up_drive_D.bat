@@ -1,5 +1,5 @@
 @echo off
-title Backup my drive D: ...
+title Drive D: Backup
 
 set "SOURCE=D:\"
 set "TARGET=%~dp0..\Backup_of_drive_D\"
@@ -8,10 +8,10 @@ set "BACKUP_HISTORY=..\Backup_History.txt"
 
 cls
 echo.
-echo       ____________________________
+echo       _________________________
 echo.
-echo            Backup Drive D:
-echo       ____________________________
+echo            Drive D: Backup
+echo       _________________________
 echo.
 echo.
 echo.
