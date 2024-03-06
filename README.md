@@ -1,27 +1,27 @@
-Personal Backups Made Easy
-==========================
+Data Backups Made Easy
+======================
 
 This repository contains instructions, scripts, and documents for a professional and comfortable local backup of your data.
 
 📋 Planning & Preparation
 --------------------------
 1. Read the [documents](docs/) first to plan your personal backup strategy.
-2. Required are one or more SSD's or harddisks ("*backup disks*") with enough capacity to hold your data.
+2. Required are one or more harddisks ("*backup disks*") with enough capacity to hold your data.
 3. Take the backup disks and write/print the disk size and a unique name onto them (e.g. "*4TB FRIDAY BACKUP*"), then connect them with the computer and rename the disks using the same name.
-4. Download this repo (see green button, then '*Download ZIP*') and unzip and rename it as top folder 📁*my-backups* onto each backup disk.
+4. Download this repo (see green button, then '*Download ZIP*') and unzip and rename it as top folder 📁*Backups4U* onto each backup disk.
 
 💾 Backup your Data
 --------------------
 1. Connect the **next** backup disk to the computer.
-2. Open the top folder 📁*my-backups* and then 📁*scripts*.
-3. Execute each appropriate script (e.g. 📄*back_up_my_Downloads.bat*) which copies the data into a new folder (if non-existing), e.g. 📁*Backup_of_Downloads*.
+2. Open the top folder 📁*Backups4U* and then 📁*scripts*.
+3. Execute each appropriate script (e.g. 📄*back_up_Downloads.bat*) which copies the data into a new folder (if non-existing), e.g. 📁*Backup_of_Downloads*.
 4. Disconnect the backup disk and store it in a secure, separate location.
 
 🪂 Recover your Data
 ---------------------
-1. Fetch the backup disk with the **latest** backup (see 📄Backup_History.txt for verification).
+1. Fetch the backup disk with the **latest** backup.
 2. Check the disk - in case it's damaged read the [documents](docs/), please.
-3. Connect the disk with the computer and open the top folder 📁*my-backups* and then e.g. 📁*Backup_of_Downloads*.
+3. Connect the disk with the computer and open the top folder 📁*Backups4U* and then e.g. 📁*Backup_of_Downloads*.
 4. Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but don't move the data).
 5. Disconnect the disk and store it in the secure, separate location again.
 
