@@ -14,7 +14,7 @@ This repository contains a simple checklist, instructions, scripts, and document
 --------------------
 - [ ] Connect the **next** backup disk to the computer.
 - [ ] Open the top folder 📁*Backups4U* and then 📁*scripts*.
-- [ ] Execute each appropriate script (e.g. 📄*back_up_Downloads.bat*) which copies the data into a new folder (if non-existing), e.g. 📁*Backup_of_Downloads*.
+- [ ] Execute appropriate scripts one by one, e.g. 📄*back_up_Downloads.bat* which copies the download folder into a new folder 📁*Backup_of_Downloads* on the backup disk.
 - [ ] Disconnect the backup disk and store it in a separate and secure location.
 
 🪂 Recover your Data
