@@ -22,7 +22,7 @@ This repository contains a checklist, instructions, scripts, and documents for a
 - [ ] Get the backup disk with the **latest** backup.
 - [ ] Check the disk - in case it's damaged read the [documents](docs/), please.
 - [ ] Connect the disk with the computer and open the top folder 📁*Backups4U* and then e.g. 📁*Backup_of_Downloads*.
-- [ ] Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but don't move the data).
+- [ ] Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DO NOT move the data).
 - [ ] Disconnect the disk and store it in the separate and secure location again.
 
 ⚠️ Notes
