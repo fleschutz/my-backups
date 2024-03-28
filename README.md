@@ -27,8 +27,7 @@ This repository contains a simple checklist, instructions, scripts, and document
 ⚠️ Notes
 ---------
 * At first a full backup is made (slow for big data) but then only changed files/folders are copied (way faster).
-* Recommended is the **3-2-1 rule**: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility).
-* One of these copies should be stored offline to protect against ransomware attacks.
+* Recommended is the **3-2-1 rule**: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility). One of these copies should be stored offline to protect against ransomware attacks.
 * No encryption is performed to keep it simple and robust! Use an encryption program and a vault to protect your backup against unauthorized physical access.
 * Test your backups regularly to ensure that they are working properly. Restore your backups to a test environment and check that all of your data can be accessed as expected.
 * Feedback is welcome! Create a pull request or send your email feedback to: markus.fleschutz [at] gmail.com
