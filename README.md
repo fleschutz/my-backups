@@ -1,7 +1,7 @@
-Data Backups Made Easy
-======================
+Checklist for Data Backups & Recovery
+=====================================
 
-This repository contains instructions, scripts, and documents for a professional and comfortable local backup of your data.
+This repository contains a checklist, instructions, scripts, and documents for a professional and comfortable local backup of your data.
 
 📋 Planning & Preparation
 --------------------------
