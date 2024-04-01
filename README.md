@@ -14,7 +14,7 @@ This repository contains a simple checklist, instructions, scripts, and document
 --------------------
 - [ ] Connect your mobile device(s) to the computer and copy photos into your *Pictures* folder, documents into your *Documents* folder, and so on.
 - [ ] Connect the **next** backup disk to the computer and open the top folder 📁*Backups4U* and then 📁*scripts*.
-- [ ] Execute the appropriate scripts one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures folder* into the folder 📁*Backup_of_Pictures* on the backup disk.
+- [ ] Execute the appropriate scripts one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures* folder into the folder 📁*Backup_of_Pictures* on the backup disk.
 - [ ] Disconnect the backup disk and store it in a separate and secure location.
 
 🪂 Recover your Data
