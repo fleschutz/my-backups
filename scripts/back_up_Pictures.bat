@@ -1,17 +1,17 @@
 @echo off
-title Screenshots Folder Backup
+title Pictures Folder Backup
 
-set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Screenshots\"
-set "TARGET=%~dp0..\Backup_of_Screenshots\"
+set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Pictures\"
+set "TARGET=%~dp0..\Backup_of_Pictures\"
 set OPTIONS=/MIR /FFT /MT:8
 set LOGFILE=..\Backups.log
 
 cls
 echo.
-echo       ____________________________________
+echo       __________________________________
 echo.
-echo            Screenshots Folder Backup
-echo       ____________________________________
+echo            Pictures Folder Backup
+echo       __________________________________
 echo.
 echo.
 echo.
@@ -37,7 +37,7 @@ echo %DATE% %TIME% - ... %SOURCE% backed up. >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #     Screenshots folder backed up. 
+echo   #   #     Pictures folder backed up. 
 echo    # #
 echo     #            
 echo.
