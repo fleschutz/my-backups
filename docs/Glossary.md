@@ -1,5 +1,5 @@
-Backup Terms Glossary
-========
+Glossary of Backup Terms
+========================
 
 **3-2-1 Rule (or 3-2-1 backup strategy):** The idea that a minimal backup solution should include three copies of the data, including two local copies and one remote copy.
 
