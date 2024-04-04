@@ -37,7 +37,7 @@ When deciding on a backup data storage strategy, there are different types of da
 
 What is XYZ?
 ------------
-See the [Glossary](Glossary.md), please.
+See the [Glossary of Backup Terms](Glossary.md), please.
 
 Can I start the backup scripts in parallel?
 -------------------------------------------
