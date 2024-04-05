@@ -3,7 +3,7 @@ title Drive M: Backup
 
 set "SOURCE=M:\"
 set "TARGET=%~dp0..\Backup_of_drive_M\"
-set OPTIONS=/MIR /FFT /MT:8
+set OPTIONS=/MIR /FFT
 set LOGFILE=..\Backups.log
 
 cls
