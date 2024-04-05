@@ -19,7 +19,7 @@ echo    Source : %SOURCE%
 echo.
 echo    Target : %TARGET%
 echo.
-echo   Options : %OPTIONS% (mirror data using 8 threads)
+echo   Options : %OPTIONS% (mirror data)
 echo.
 echo      NOTE : check source and target (+ free space left), then press [RETURN]
 echo.
