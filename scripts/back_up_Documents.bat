@@ -3,7 +3,7 @@ title Documents Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Documents\"
 set "TARGET=%~dp0..\Backup_of_Documents\"
-set OPTIONS=/MIR /FFT /MT:8
+set OPTIONS=/MIR /FFT
 set LOGFILE=..\Backups.log
 
 cls
