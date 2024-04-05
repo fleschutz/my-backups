@@ -3,7 +3,7 @@ title Pictures Folder Backup
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Pictures\"
 set "TARGET=%~dp0..\Backup_of_Pictures\"
-set OPTIONS=/MIR /FFT /MT:8
+set OPTIONS=/MIR /FFT
 set LOGFILE=..\Backups.log
 
 cls
@@ -19,7 +19,7 @@ echo    Source : %SOURCE%
 echo.
 echo    Target : %TARGET%
 echo.
-echo   Options : %OPTIONS% (mirror data using 8 threads)
+echo   Options : %OPTIONS% (mirror data)
 echo.
 echo      NOTE : check source and target (+ free space left), then press [RETURN]
 echo.
