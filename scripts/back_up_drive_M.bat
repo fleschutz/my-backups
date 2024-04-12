@@ -1,5 +1,5 @@
 @echo off
-title Drive M: Backup
+title Backup of drive M:
 
 set "SOURCE=M:\"
 set "TARGET=%~dp0..\Backup_of_drive_M\"
@@ -29,10 +29,10 @@ echo.
 echo.
 pause
 
-echo %DATE% %TIME% - Backing up %SOURCE% ... >>%LOGFILE%
+echo %DATE% %TIME% - Backup of %SOURCE% started... >>%LOGFILE%
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
-echo %DATE% %TIME% - ... %SOURCE% backed up. >>%LOGFILE%
+echo %DATE% %TIME% - Backup of %SOURCE% finished. >>%LOGFILE%
 
 echo.
 echo         #
