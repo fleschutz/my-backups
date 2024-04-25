@@ -29,10 +29,10 @@ echo.
 echo.
 pause
 
-echo %DATE% %TIME% - Backing up %SOURCE% ... >>%LOGFILE%
+echo [%DATE% %TIME%] - Backup started: %SOURCE% >>%LOGFILE%
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
-echo %DATE% %TIME% - ... %SOURCE% backed up. >>%LOGFILE%
+echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 
 echo.
 echo         #
