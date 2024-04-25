@@ -4,7 +4,7 @@ title Drive E: Backup
 set "SOURCE=E:\"
 set "TARGET=%~dp0..\Backup_of_drive_E\"
 set OPTIONS=/MIR /FFT
-set LOGFILE=..\Backups.log
+set LOGFILE=..\Logbook.txt
 
 cls
 echo.

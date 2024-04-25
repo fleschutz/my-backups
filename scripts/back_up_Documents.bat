@@ -4,7 +4,7 @@ title Documents Folder Backup
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Documents\"
 set "TARGET=%~dp0..\Backup_of_Documents\"
 set OPTIONS=/MIR /FFT
-set LOGFILE=..\Backups.log
+set LOGFILE=..\Logbook.txt
 
 cls
 echo.

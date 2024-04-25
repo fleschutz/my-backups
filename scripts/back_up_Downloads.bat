@@ -4,7 +4,7 @@ title Downloads Folder Backup
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Downloads\"
 set "TARGET=%~dp0..\Backup_of_Downloads\"
 set OPTIONS=/MIR /FFT
-set LOGFILE=..\Backups.log
+set LOGFILE=..\Logbook.txt
 
 cls
 echo.

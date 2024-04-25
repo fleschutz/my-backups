@@ -4,7 +4,7 @@ title Music Folder Backup
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Music\"
 set "TARGET=%~dp0..\Backup_of_Music\"
 set OPTIONS=/MIR /FFT
-set LOGFILE=..\Backups.log
+set LOGFILE=..\Logbook.txt
 
 cls
 echo.

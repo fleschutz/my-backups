@@ -4,7 +4,7 @@ title Onedrive Folder Backup
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Onedrive\"
 set "TARGET=%~dp0..\Backup_of_Onedrive\"
 set OPTIONS=/MIR /FFT
-set LOGFILE=..\Backups.log
+set LOGFILE=..\Logbook.txt
 
 cls
 echo.

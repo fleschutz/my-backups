@@ -4,7 +4,7 @@ title Nextcloud Folder Backup
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Nextcloud\"
 set "TARGET=%~dp0..\Backup_of_Nextcloud\"
 set OPTIONS=/MIR /FFT /xa:o
-set LOGFILE=..\Backups.log
+set LOGFILE=..\Logbook.txt
 
 cls
 echo.

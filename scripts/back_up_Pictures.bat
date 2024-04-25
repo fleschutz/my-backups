@@ -4,7 +4,7 @@ title Pictures Folder Backup
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Pictures\"
 set "TARGET=%~dp0..\Backup_of_Pictures\"
 set OPTIONS=/MIR /FFT
-set LOGFILE=..\Backups.log
+set LOGFILE=..\Logbook.txt
 
 cls
 echo.

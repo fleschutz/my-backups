@@ -4,7 +4,7 @@ title Dropbox Folder Backup
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Dropbox\"
 set "TARGET=%~dp0..\Backup_of_Dropbox\"
 set OPTIONS=/MIR /FFT /xa:o
-set LOGFILE=..\Backups.log
+set LOGFILE=..\Logbook.txt
 
 cls
 echo.
