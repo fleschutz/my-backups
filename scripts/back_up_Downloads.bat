@@ -37,7 +37,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #     Downloads folder backed up. 
+echo   #   #     Downloads folder backed up to: %TARGET%
 echo    # #
 echo     #            
 echo.

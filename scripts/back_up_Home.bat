@@ -37,7 +37,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #       Home folder backed up. 
+echo   #   #      Home folder backed up to: %TARGET%
 echo    # #
 echo     #            
 echo.

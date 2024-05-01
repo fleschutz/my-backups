@@ -37,7 +37,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #     Drive D: backed up. 
+echo   #   #     D: drive backed up to: %TARGET%
 echo    # #
 echo     #            
 echo.
