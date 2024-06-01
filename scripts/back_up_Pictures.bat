@@ -1,5 +1,5 @@
 @echo off
-title Pictures Folder Backup
+title Backup of Pictures Folder
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Pictures\"
 set "TARGET=%~dp0..\Backup_of_Pictures\"
@@ -8,11 +8,12 @@ set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo       __________________________________
+echo            ____________________________________
 echo.
-echo            Pictures Folder Backup
-echo       __________________________________
+echo                 Backup of Pictures Folder
+echo            ____________________________________
 echo.
+echo This script backs up the Pictures folder in your home directory.
 echo.
 echo.
 echo    Source : %SOURCE%
