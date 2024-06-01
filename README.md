@@ -20,7 +20,7 @@ Backups are boring, but the alternative — losing your data — is the kind of 
 🪂 Recover your Data
 ---------------------
 - [ ] Get the backup disk with the **latest** backup - in case it's damaged read the [documents](docs/), please.
-- [ ] Connect the disk with the computer and open the top folder 📁*Backups4U* and then e.g. 📁*Backup_of_Pictures*.
+- [ ] Connect the disk with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
 - [ ] Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DO NOT move the data).
 - [ ] Disconnect the disk and store it in the separate and secure location again.
 
