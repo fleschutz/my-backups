@@ -2,7 +2,7 @@
 title Backup of Pictures Folder
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Pictures\"
-set "TARGET=%~dp0..\Backup_of_Pictures\"
+set "TARGET=%~dp0..\BACKUPS\Pictures\"
 set OPTIONS=/MIR /FFT
 set LOGFILE=..\Logbook.txt
 
@@ -13,16 +13,17 @@ echo.
 echo                 Backup of Pictures Folder
 echo            ____________________________________
 echo.
-echo This script backs up the Pictures folder in your home directory.
 echo.
+echo    This script will back up the Pictures folder...
 echo.
-echo    Source : %SOURCE%
+echo         from : %SOURCE% (your home folder)
 echo.
-echo    Target : %TARGET%
+echo           to : %TARGET% (this media)
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo with options : %OPTIONS% (mirror the data)
 echo.
-echo      NOTE : check source and target (+ free space left), then press [RETURN]
+echo         NOTE : check source and target,
+echo                then press [Return] key or abort with [Ctrl] [C]
 echo.
 echo.
 echo.

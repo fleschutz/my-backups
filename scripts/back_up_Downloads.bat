@@ -1,27 +1,30 @@
 @echo off
-title Downloads Folder Backup
+title Backup of Downloads Folder
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Downloads\"
-set "TARGET=%~dp0..\Backup_of_Downloads\"
+set "TARGET=%~dp0..\BACKUPS\Downloads\"
 set OPTIONS=/MIR /FFT
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo       ___________________________________
+echo       _____________________________________
 echo.
-echo            Downloads Folder Backup
-echo       ___________________________________
+echo            Backup of Downloads Folder
+echo       _____________________________________
 echo.
 echo.
 echo.
-echo    Source : %SOURCE%
+echo    This script will back up the Downloads folder...
 echo.
-echo    Target : %TARGET%
+echo         from : %SOURCE% (your home folder)
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo           to : %TARGET% (this media)
 echo.
-echo      NOTE : check source and target (+ free space left), then press [RETURN]
+echo with options : %OPTIONS% (mirror the data)
+echo.
+echo         NOTE : check source and target,
+echo                then press [Return] key or abort with [Ctrl] [C].
 echo.
 echo.
 echo.

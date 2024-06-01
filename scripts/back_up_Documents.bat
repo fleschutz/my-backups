@@ -1,27 +1,30 @@
 @echo off
-title Documents Folder Backup
+title Backup of Documents Folder
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Documents\"
-set "TARGET=%~dp0..\Backup_of_Documents\"
+set "TARGET=%~dp0..\BACKUPS\Documents\"
 set OPTIONS=/MIR /FFT
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo       ___________________________________
+echo       ____________________________________
 echo.
-echo            Documents Folder Backup
-echo       ___________________________________
+echo            Backup of Documents Folder
+echo       ____________________________________
 echo.
 echo.
 echo.
-echo    Source : %SOURCE%
+echo    This script will back up the Documents folder...
 echo.
-echo    Target : %TARGET%
+echo         from : %SOURCE% (your home folder)
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo           to : %TARGET% (this media)
 echo.
-echo      NOTE : check source and target (+ free space left), then press [RETURN]
+echo with options : %OPTIONS% (mirror the data)
+echo.
+echo         NOTE : check source and target,
+echo                then press [Return] key or abort with [Ctrl] [C].
 echo.
 echo.
 echo.
@@ -37,7 +40,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #     Documents folder backed up to: %TARGET%
+echo   #   #     Documents folder backed up.
 echo    # #
 echo     #            
 echo.

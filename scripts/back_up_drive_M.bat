@@ -2,26 +2,29 @@
 title Backup of drive M:
 
 set "SOURCE=M:\"
-set "TARGET=%~dp0..\Backup_of_drive_M\"
+set "TARGET=%~dp0..\Drive_M\"
 set OPTIONS=/MIR /FFT
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo       __________________________
+echo       ____________________________
 echo.
-echo            Drive M: Backup
-echo       __________________________
+echo            Backup of Drive M:
+echo       ____________________________
 echo.
 echo.
 echo.
-echo    Source : %SOURCE%
+echo    This script will back up drive M: ...
 echo.
-echo    Target : %TARGET%
+echo         from : %SOURCE% (your home folder)
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo           to : %TARGET% (this media)
 echo.
-echo      NOTE : check source and target (+ free space left), then press [RETURN]
+echo with options : %OPTIONS% (mirror the data)
+echo.
+echo         NOTE : check source and target,
+echo                then press [Return] key or abort with [Ctrl] [C].
 echo.
 echo.
 echo.

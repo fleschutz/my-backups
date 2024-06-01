@@ -1,8 +1,8 @@
 @echo off
-title Dropbox Folder Backup
+title Backup of Dropbox Folder
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Dropbox\"
-set "TARGET=%~dp0..\Backup_of_Dropbox\"
+set "TARGET=%~dp0..\BACKUPS\Dropbox\"
 set OPTIONS=/MIR /FFT /xa:o
 set LOGFILE=..\Logbook.txt
 
@@ -10,18 +10,21 @@ cls
 echo.
 echo       _________________________________
 echo.
-echo            Dropbox Folder Backup
+echo            Backup of Dropbox Folder
 echo       _________________________________
 echo.
 echo.
 echo.
-echo    Source : %SOURCE%
+echo    This script will back up the Desktop folder...
 echo.
-echo    Target : %TARGET%
+echo         from : %SOURCE% (your home folder)
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo           to : %TARGET% (this media)
 echo.
-echo      NOTE : check source and target (+ free space left), then press [RETURN]
+echo with options : %OPTIONS% (mirror the data)
+echo.
+echo         NOTE : check source and target,
+echo                then press [Return] key or abort with [Ctrl] [C].
 echo.
 echo.
 echo.

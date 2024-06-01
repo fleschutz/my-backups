@@ -1,27 +1,30 @@
 @echo off
-title Nextcloud Folder Backup
+title Backup of Nextcloud Folder
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Nextcloud\"
-set "TARGET=%~dp0..\Backup_of_Nextcloud\"
+set "TARGET=%~dp0..\BACKUPS\Nextcloud\"
 set OPTIONS=/MIR /FFT /xa:o
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo       __________________________________
+echo       ___________________________________
 echo.
-echo            Nextcloud Folder Backup
-echo       __________________________________
+echo            Backup of Nextcloud Folder
+echo       ____________________________________
 echo.
 echo.
 echo.
-echo    Source : %SOURCE%
+echo    This script will back up the Nextcloud folder...
 echo.
-echo    Target : %TARGET%
+echo         from : %SOURCE% (your home folder)
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo           to : %TARGET% (this media)
 echo.
-echo      NOTE : check source and target (+ free space left), then press [RETURN]
+echo with options : %OPTIONS% (mirror the data)
+echo.
+echo         NOTE : check source and target,
+echo                then press [Return] key or abort with [Ctrl] [C].
 echo.
 echo.
 echo.
@@ -37,7 +40,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #      Nextcloud folder backed up to: %TARGET%
+echo   #   #      Nextcloud folder backed up.
 echo    # #
 echo     #            
 echo.

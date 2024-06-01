@@ -1,21 +1,22 @@
 @echo off
-title Backup of Desktop Folder
+title Backup of Home Folder
 
-set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Desktop\"
-set "TARGET=%~dp0..\BACKUPS\Desktop\"
+set "SOURCE=%HOMEDRIVE%%HOMEPATH%\"
+set "TARGET=%~dp0..\BACKUPS\Home_folder\"
 set OPTIONS=/MIR /FFT
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo         _________________________________
+echo       _______________________________
 echo.
-echo              Backup of Desktop Folder
-echo         _________________________________
+echo            Backup of Home Folder
+echo       _______________________________
 echo.
 echo.
 echo.
-echo    This script will back up the Desktop folder...
+echo    This script will back up the Home folder...
+echo (containing Desktop, Downloads, Music, etc. folder)
 echo.
 echo         from : %SOURCE% (your home folder)
 echo.
@@ -40,7 +41,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #     Desktop folder backed up.
+echo   #   #      Home folder backed up.
 echo    # #
 echo     #            
 echo.
