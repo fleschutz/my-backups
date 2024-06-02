@@ -1,5 +1,5 @@
-Welcome to the BACKUPS Folder
-=============================
+Welcome to the BACKUPS Subfolder
+================================
 
 This folder contains everything that has been backed up. To recover your data perform the following:
 
