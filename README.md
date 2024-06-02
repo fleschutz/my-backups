@@ -1,7 +1,7 @@
 Checklist for Data Backups & Recovery
 =====================================
 
-Backups are boring, but the alternative — losing your data — is the kind of excitement no one wants. The repository contains this checklist with backup scripts and documents for a professional and comfortable local backup of your data.
+Gain peace of mind and back up your data reliable and often. The repository contains this checklist with backup scripts and documents for a professional and comfortable local backup of your data.
 
 📋 Planning & Preparation
 --------------------------
