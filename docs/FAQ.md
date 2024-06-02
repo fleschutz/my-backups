@@ -1,5 +1,5 @@
-FAQ regarding Data Backups & Recovery
-=====================================
+FAQ's regarding Data Backups & Recovery
+=======================================
 
 Why back up at all?
 -------------------
