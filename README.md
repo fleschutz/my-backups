@@ -14,7 +14,7 @@ Backups are boring, but the alternative — losing your data — is the kind of 
 --------------------
 - [ ] Connect your mobile devices to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
 - [ ] Connect the **next** backup disk to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
-- [ ] Execute the appropriate scripts one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures* folder into the folder 📁*Backup_of_Pictures* on the backup disk.
+- [ ] Execute the appropriate scripts one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures* folder into the subfolder 📁*BACKUPS/Pictures* on the backup disk.
 - [ ] Disconnect the backup disk and store it in a separate and secure location.
 
 🪂 Recover your Data
