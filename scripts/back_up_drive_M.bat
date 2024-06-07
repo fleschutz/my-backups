@@ -2,7 +2,7 @@
 title Backup of drive M:
 
 set "SOURCE=M:\"
-set "TARGET=%~dp0..\Drive_M\"
+set "TARGET=%~dp0..\BACKUPS\Drive_M\"
 set OPTIONS=/MIR /FFT
 set LOGFILE=..\Logbook.txt
 

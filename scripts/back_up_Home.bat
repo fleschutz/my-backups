@@ -1,17 +1,17 @@
 @echo off
-title Onedrive Folder Backup
+title Home Folder Backup
 
-set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Onedrive\"
-set "TARGET=%~dp0..\BACKUPS\Onedrive\"
+set "SOURCE=%HOMEDRIVE%%HOMEPATH%\"
+set "TARGET=%~dp0..\BACKUPS\Home_dir\"
 set OPTIONS=/MIR /FFT
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo       _________________________________
+echo       _____________________________
 echo.
-echo            Onedrive Folder Backup
-echo       _________________________________
+echo            Home Folder Backup
+echo       _____________________________
 echo.
 echo.
 echo.
@@ -37,7 +37,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #      Onedrive folder backed up to: %TARGET%
+echo   #   #      Home folder backed up to: %TARGET%
 echo    # #
 echo     #            
 echo.
