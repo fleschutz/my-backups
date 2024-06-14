@@ -8,19 +8,19 @@ set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo            ____________________________________
+echo         ____________________________________
 echo.
-echo                 Backup of Pictures Folder
-echo            ____________________________________
+echo              Backup of Pictures Folder
+echo         ____________________________________
 echo.
 echo.
-echo    This script will back up the Pictures folder...
+echo    This script will back up your Pictures folder...
 echo.
-echo         from : %SOURCE% (your home folder)
+echo         FROM : %SOURCE% 
 echo.
-echo           to : %TARGET% (this media)
+echo           TO : %TARGET% 
 echo.
-echo with options : %OPTIONS% (mirror the data)
+echo      OPTIONS : %OPTIONS% (data mirroring)
 echo.
 echo         NOTE : check source and target,
 echo                then press [Return] key or abort with [Ctrl] [C]
@@ -39,7 +39,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #     Pictures folder backed up to: %TARGET%
+echo   #   #     Your Pictures folder is backed up.
 echo    # #
 echo     #            
 echo.

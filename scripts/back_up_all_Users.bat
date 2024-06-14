@@ -1,5 +1,5 @@
 @echo off
-title Users Folder Backup
+title Backup of All Users
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\..\"
 set "TARGET=%~dp0..\Backup_of_Users_Folder\"
@@ -10,16 +10,19 @@ cls
 echo.
 echo       ______________________________
 echo.
-echo            Users Folder Backup
+echo            Backup of All Users
 echo       ______________________________
 echo.
 echo.
+echo    This script will back up the Users folder...
 echo.
-echo    Source : %SOURCE%
 echo.
-echo    Target : %TARGET%
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo      FROM : %SOURCE%
+echo.
+echo        TO : %TARGET%
+echo.
+echo   OPTIONS : %OPTIONS% (mirror data)
 echo.
 echo      NOTE : check source and target (+ free space left), then press [RETURN]
 echo.
@@ -37,7 +40,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #      Users folder backed up to: %TARGET%
+echo   #   #      All users are backed up.
 echo    # #
 echo     #            
 echo.

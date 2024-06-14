@@ -15,14 +15,13 @@ echo       _______________________________
 echo.
 echo.
 echo.
-echo    This script will back up the Home folder...
-echo (containing Desktop, Downloads, Music, etc. folder)
+echo    This script will back up your Home folder...
 echo.
-echo         from : %SOURCE% (your home folder)
+echo         FROM : %SOURCE% 
 echo.
-echo           to : %TARGET% (this media)
+echo           TO : %TARGET% 
 echo.
-echo with options : %OPTIONS% (mirror the data)
+echo      OPTIONS : %OPTIONS% (mirror the data)
 echo.
 echo         NOTE : check source and target,
 echo                then press [Return] key or abort with [Ctrl] [C].
@@ -41,7 +40,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #      Home folder backed up.
+echo   #   #      Your Home folder is backed up.
 echo    # #
 echo     #            
 echo.

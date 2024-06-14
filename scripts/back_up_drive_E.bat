@@ -8,18 +8,20 @@ set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo       _________________________
+echo       ____________________________
 echo.
-echo            Drive E: Backup
-echo       _________________________
+echo            Backup of Drive E:
+echo       ____________________________
 echo.
 echo.
 echo.
-echo    Source : %SOURCE%
+echo    This script will back up your drive E:...
 echo.
-echo    Target : %TARGET%
+echo      FROM : %SOURCE%
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo        TO : %TARGET%
+echo.
+echo   OPTIONS : %OPTIONS% (mirror data)
 echo.
 echo      NOTE : check source and target (+ free space left), then press [RETURN]
 echo.
@@ -37,7 +39,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #      E: drive backed up to: %TARGET%
+echo   #   #      The backup of drive E: is done.
 echo    # #
 echo     #            
 echo.

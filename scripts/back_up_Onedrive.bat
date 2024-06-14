@@ -1,5 +1,5 @@
 @echo off
-title Onedrive Folder Backup
+title Backup of Your Onedrive Folder 
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Onedrive\"
 set "TARGET=%~dp0..\BACKUPS\Onedrive\"
@@ -10,16 +10,18 @@ cls
 echo.
 echo       _________________________________
 echo.
-echo            Onedrive Folder Backup
+echo         Backup of Your Onedrive Folder
 echo       _________________________________
 echo.
 echo.
 echo.
-echo    Source : %SOURCE%
+echo    This script will back up your Onedrive folder...
 echo.
-echo    Target : %TARGET%
+echo      FROM : %SOURCE%
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo        TO : %TARGET%
+echo.
+echo   OPTIONS : %OPTIONS% (mirror data)
 echo.
 echo      NOTE : check source and target (+ free space left), then press [RETURN]
 echo.
@@ -37,7 +39,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #      Onedrive folder backed up to: %TARGET%
+echo   #   #      Your Onedrive folder is backed up.
 echo    # #
 echo     #            
 echo.

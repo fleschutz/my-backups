@@ -1,5 +1,5 @@
 @echo off
-title Backup of Music Folder
+title Backup of your Music folder
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Music\"
 set "TARGET=%~dp0..\BACKUPS\Music\"
@@ -8,20 +8,20 @@ set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo       ________________________________
+echo       ____________________________________
 echo.
-echo            Backup of Music Folder
-echo       ________________________________
+echo           Backup of Your Music Folder
+echo       ____________________________________
 echo.
 echo.
 echo.
-echo    This script will back up the Music folder...
+echo    This script will back up your Music folder...
 echo.
-echo         from : %SOURCE% (your home folder)
+echo         FROM : %SOURCE% 
 echo.
-echo           to : %TARGET% (this media)
+echo           TO : %TARGET% 
 echo.
-echo with options : %OPTIONS% (mirror the data)
+echo      OPTIONS : %OPTIONS% (mirror the data)
 echo.
 echo         NOTE : check source and target,
 echo                then press [Return] key or abort with [Ctrl] [C]
@@ -40,7 +40,7 @@ echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 echo.
 echo         #
 echo        #
-echo   #   #     Music folder backed up.
+echo   #   #     Your Music folder is backed up.
 echo    # #
 echo     #            
 echo.
