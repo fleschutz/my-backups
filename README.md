@@ -9,6 +9,7 @@ Gain peace of mind and back up your data reliable and often. This repository con
 - [ ] Get or buy one or more *backup harddisks* with enough capacity to hold your data.
 - [ ] Take the backup harddisks and write/print the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
 - [ ] Download this repo (see green button, then '*Download ZIP*') and unzip and rename it as top folder 📁*Backups4U* onto each backup disk.
+- [ ] Set up an automatic reminder to back up your data every day/week/month/etc.
 
 💾 Back up your Data
 ---------------------
