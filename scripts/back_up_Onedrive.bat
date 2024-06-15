@@ -1,29 +1,32 @@
 @echo off
-title Backup of Your Onedrive Folder 
+title Backup of Onedrive
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Onedrive\"
 set "TARGET=%~dp0..\BACKUPS\Onedrive\"
-set OPTIONS=/MIR /FFT
+set OPTIONS=/mir /xa:o /r:3 /w:10 /fft /njh /unicode
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
 echo       _________________________________
 echo.
-echo         Backup of Your Onedrive Folder
+echo              Backup of Onedrive
 echo       _________________________________
 echo.
 echo.
+echo  This script will back up your Onedrive folder...
 echo.
-echo    This script will back up your Onedrive folder...
+echo.
 echo.
 echo      FROM : %SOURCE%
 echo.
 echo        TO : %TARGET%
 echo.
-echo   OPTIONS : %OPTIONS% (mirror data)
+echo   OPTIONS : robocopy %OPTIONS%
 echo.
-echo      NOTE : check source and target (+ free space left), then press [RETURN]
+echo      NOTE : check everything, then press [Return] key or abort with [Ctrl] [C]
+echo.
+echo.
 echo.
 echo.
 echo.
@@ -36,12 +39,14 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 
+echo ------------------------------------------------------------------------------
+echo.
 echo.
 echo         #
 echo        #
-echo   #   #      Your Onedrive folder is backed up.
+echo   #   #      Onedrive folder backed up successfully.
 echo    # #
 echo     #            
 echo.
-pause
+timeout 10
 exit 0

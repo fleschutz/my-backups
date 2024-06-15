@@ -1,29 +1,33 @@
 @echo off
-title Backup of Pictures Folder
+title Backup of Pictures
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Pictures\"
 set "TARGET=%~dp0..\BACKUPS\Pictures\"
-set OPTIONS=/MIR /FFT
+set OPTIONS=/mir /xa:o /r:3 /w:10 /fft /njh /unicode
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
 echo         ____________________________________
 echo.
-echo              Backup of Pictures Folder
+echo                 Backup of Pictures
 echo         ____________________________________
 echo.
 echo.
-echo    This script will back up your Pictures folder...
+echo   This script will back up your Pictures folder...
+echo.
+echo.
 echo.
 echo         FROM : %SOURCE% 
 echo.
 echo           TO : %TARGET% 
 echo.
-echo      OPTIONS : %OPTIONS% (data mirroring)
+echo      OPTIONS : robocopy %OPTIONS%
 echo.
-echo         NOTE : check source and target,
-echo                then press [Return] key or abort with [Ctrl] [C]
+echo         NOTE : check everything, then press [Return] key or abort with [Ctrl] [C]
+echo.
+echo.
+echo.
 echo.
 echo.
 echo.
@@ -36,12 +40,14 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 
+echo ------------------------------------------------------------------------------
+echo.
 echo.
 echo         #
 echo        #
-echo   #   #     Your Pictures folder is backed up.
+echo   #   #     Pictures folder backed up successfully.
 echo    # #
 echo     #            
 echo.
-pause
+timeout 10
 exit 0

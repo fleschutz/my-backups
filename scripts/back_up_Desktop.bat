@@ -1,30 +1,32 @@
 @echo off
-title Backup of Desktop Folder
+title Backup of Desktop
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Desktop\"
 set "TARGET=%~dp0..\BACKUPS\Desktop\"
-set OPTIONS=/MIR /FFT
+set OPTIONS=/mir /xa:o /r:3 /w:10 /fft /njh /unicode
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo         _________________________________
+echo         ____________________________
 echo.
-echo              Backup of Desktop Folder
-echo         _________________________________
+echo              Backup of Desktop
+echo         ____________________________
+echo.
+echo.
+echo  This script will back up your Desktop folder...
 echo.
 echo.
 echo.
-echo    This script will back up the Desktop folder...
+echo         FROM : %SOURCE% 
 echo.
-echo         from : %SOURCE% (your home folder)
+echo           TO : %TARGET% 
 echo.
-echo           to : %TARGET% (this media)
+echo      OPTIONS : robocopy %OPTIONS%
 echo.
-echo with options : %OPTIONS% (mirror the data)
+echo         NOTE : check everything, then press [Return] key or abort with [Ctrl] [C]
 echo.
-echo         NOTE : check source and target,
-echo                then press [Return] key or abort with [Ctrl] [C].
+echo.
 echo.
 echo.
 echo.
@@ -37,12 +39,14 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 
+echo ------------------------------------------------------------------------------
+echo.
 echo.
 echo         #
 echo        #
-echo   #   #     Desktop folder backed up.
+echo   #   #     Desktop folder backed up successfully.
 echo    # #
 echo     #            
 echo.
-pause
+timeout 10
 exit 0

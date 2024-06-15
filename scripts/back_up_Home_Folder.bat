@@ -1,20 +1,20 @@
 @echo off
-title Backup of Nextcloud
+title Backup of Home Folder
 
-set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Nextcloud\"
-set "TARGET=%~dp0..\BACKUPS\Nextcloud\"
+set "SOURCE=%HOMEDRIVE%%HOMEPATH%\"
+set "TARGET=%~dp0..\BACKUPS\Home_Folder\"
 set OPTIONS=/mir /xa:o /r:3 /w:10 /fft /njh /unicode
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo         ______________________________
+echo         _______________________________
 echo.
-echo              Backup of Nextcloud
-echo         ______________________________
+echo              Backup of Home Folder
+echo         _______________________________
 echo.
 echo.
-echo  This script will back up your Nextcloud folder...
+echo   This script will back up your Home folder...
 echo.
 echo.
 echo.
@@ -24,8 +24,9 @@ echo           TO : %TARGET%
 echo.
 echo      OPTIONS : robocopy %OPTIONS%
 echo.
-echo         NOTE : check everything,
-echo                then press [Return] key or abort with [Ctrl] [C].
+echo         NOTE : check everything, then press [Return] key or abort with [Ctrl] [C].
+echo.
+echo.
 echo.
 echo.
 echo.
@@ -43,7 +44,7 @@ echo.
 echo.
 echo         #
 echo        #
-echo   #   #      Nextcloud folder backed up successfully.
+echo   #   #      Home folder backed up successfully.
 echo    # #
 echo     #            
 echo.

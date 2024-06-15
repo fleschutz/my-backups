@@ -3,27 +3,28 @@ title Backup of Dropbox
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Dropbox\"
 set "TARGET=%~dp0..\BACKUPS\Dropbox\"
-set OPTIONS=/MIR /FFT /xa:o
+set OPTIONS=/mir /xa:o /r:3 /w:10 /fft /njh /unicode 
 set LOGFILE=..\Logbook.txt
 
 cls
 echo.
-echo       _____________________________
+echo          _____________________________
+echo.  
+echo               Backup of Dropbox 
+echo          _____________________________
 echo.
-echo            Backup of Dropbox 
-echo       _____________________________
+echo.
+echo  This script will back up your Dropbox folder...
 echo.
 echo.
-echo.
-echo    This script will back up your Dropbox folder...
 echo.
 echo         FROM : %SOURCE% 
 echo.
 echo           TO : %TARGET% 
 echo.
-echo      OPTIONS : %OPTIONS% (mirror the data)
+echo      OPTIONS : robocopy %OPTIONS%
 echo.
-echo         NOTE : check source and target,
+echo         NOTE : check everything,
 echo                then press [Return] key or abort with [Ctrl] [C].
 echo.
 echo.
@@ -37,12 +38,14 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo [%DATE% %TIME%] - Backup finished: %SOURCE% >>%LOGFILE%
 
+echo ------------------------------------------------------------------------------
+echo.
 echo.
 echo         #
 echo        #
-echo   #   #      Backup of your Dropbox folder is done.
+echo   #   #      Dropbox folder backed up successfully.
 echo    # #
 echo     #            
 echo.
-pause
+timeout 10
 exit 0
