@@ -5,7 +5,7 @@ Gain peace of mind and back up your data reliable and often. This repository con
 
 📋 Planning & Preparation
 --------------------------
-- [ ] **Read the [documents](docs/)** first to plan your personal backup strategy.
+- [ ] **Read the [documents](docs/)** to plan your personal backup strategy.
 - [ ] **Get or buy harddisks** with enough capacity to hold all your data.
 - [ ] **Label the harddisks**: write/print the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
 - [ ] **Download this repo** (see green button, then '*Download ZIP*') and unzip and rename it as top folder 📁*Backups4U* onto each backup disk.
