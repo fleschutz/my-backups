@@ -10,8 +10,8 @@ Gain peace of mind and back up your data reliable and often. This repository con
 - [ ] Take the backup disks and write/print the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
 - [ ] Download this repo (see green button, then '*Download ZIP*') and unzip and rename it as top folder 📁*Backups4U* onto each backup disk.
 
-💾 Backup your Data
---------------------
+💾 Back up your Data
+---------------------
 - [ ] Connect your mobile devices to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
 - [ ] Connect the **next** backup disk to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
 - [ ] Execute the appropriate scripts one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures* folder into the subfolder 📁*BACKUPS/Pictures* on the backup disk.
