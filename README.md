@@ -6,20 +6,20 @@ Gain peace of mind and back up your data reliable and often. This repository con
 📋 Planning & Preparation
 --------------------------
 - [ ] Read the [documents](docs/) first to plan your personal backup strategy.
-- [ ] Required are one or more harddisks ("*backup disks*") with enough capacity to hold your data.
-- [ ] Take the backup disks and write/print the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
+- [ ] Get or buy one or more *backup harddisks* with enough capacity to hold your data.
+- [ ] Take the backup harddisks and write/print the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
 - [ ] Download this repo (see green button, then '*Download ZIP*') and unzip and rename it as top folder 📁*Backups4U* onto each backup disk.
 
 💾 Back up your Data
 ---------------------
 - [ ] Connect your mobile devices to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
-- [ ] Connect the **next** backup disk to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
+- [ ] Connect the **next** backup harddisk to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
 - [ ] Execute the appropriate scripts one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures* folder into the subfolder 📁*BACKUPS/Pictures* on the backup disk.
-- [ ] Disconnect the backup disk and store it in a separate and secure location.
+- [ ] Disconnect the disk and store it in a separate and secure location.
 
 🪂 Recover your Data
 ---------------------
-- [ ] Get the backup disk with the **latest** backup - in case it's damaged read the [documents](docs/), please.
+- [ ] Get the backup harddisk with the **latest** backup - in case it's damaged read the [documents](docs/), please.
 - [ ] Connect the disk with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
 - [ ] Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DO NOT move the data).
 - [ ] Disconnect the disk and store it in the separate and secure location again.
