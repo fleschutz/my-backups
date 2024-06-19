@@ -6,17 +6,17 @@ Gain peace of mind and back up your data reliable and often. This repository con
 📋 Planning & Preparation
 --------------------------
 - [ ] **Read the [documents](docs/)** to plan your personal backup strategy.
-- [ ] **Get or buy harddisks** with enough capacity to hold all your data.
-- [ ] **Label the harddisks**: write/print the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
+- [ ] **Get harddisks** with enough capacity to hold all your data.
+- [ ] **Label the harddisks** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
 - [ ] **Download this repo** (see green button, then '*Download ZIP*') and unzip and copy it as top folder 📁*Backups4U* onto each harddisk.
 - [ ] **Set up an automatic reminder** to back up your data every day/week/month/etc.
 
 💾 Back up your Data
 ---------------------
-- [ ] Connect your mobile devices to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
-- [ ] Connect the **next** backup harddisk to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
-- [ ] Execute the appropriate scripts one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures* folder into the subfolder 📁*BACKUPS/Pictures* on the backup disk.
-- [ ] Disconnect the disk and store it in a separate and secure location.
+- [ ] **Connect your mobile** devices to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
+- [ ] **Connect the next harddisk** to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
+- [ ] **Execute the appropriate scripts** one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures* folder into the subfolder 📁*BACKUPS/Pictures* on the backup disk.
+- [ ] **Disconnect the harddisk** and store it in a separate and secure location.
 
 🪂 Recover your Data
 ---------------------
