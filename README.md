@@ -1,5 +1,5 @@
-The Data Backup & Recovery Solution
-===================================
+Local Data Backup & Recovery
+============================
 
 Gain peace of mind and back up your data reliable and often. This repository contains a checklist (see below) with backup scripts and documents for a professional and comfortable local backup of your data.
 
