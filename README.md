@@ -20,6 +20,7 @@ Gain peace of mind and back up your data reliable and often. This repository con
 
 🪂 Recover your Data
 ---------------------
+- [ ] **Don't Panic** - you are prepared and there's a backup waiting for you.
 - [ ] **Select the harddisk** with the latest (!) backup.
 - [ ] **Check the harddisk:** in case it's damaged read the [documents](docs/) and consider using another one.
 - [ ] **Connect the harddisk** with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
