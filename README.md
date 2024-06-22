@@ -20,11 +20,11 @@ Gain peace of mind and back up your data reliable and often. This repository con
 
 🪂 Recover your Data
 ---------------------
-- [ ] Select the backup harddisk with the **most recent** backup.
-- [ ] Check the disk - in case it's damaged read the [documents](docs/) and consider using the next one.
-- [ ] Connect the disk with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
-- [ ] Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DO NOT move the data).
-- [ ] Disconnect the disk and store it in the separate and secure location again.
+- [ ] **Select the harddisk** with the **most recent** backup.
+- [ ] **Check the harddisk:** in case it's damaged read the [documents](docs/) and consider using another one.
+- [ ] **Connect the harddisk** with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
+- [ ] **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DO NOT move the data).
+- [ ] **Disconnect the harddisk** and store it in the separate and secure location again.
 
 ⚠️ Notes
 ---------
