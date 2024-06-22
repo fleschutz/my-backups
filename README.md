@@ -1,5 +1,5 @@
-The Data Backup & Recovery Solution
-===================================
+Local Data Backup & Recovery
+============================
 
 Gain peace of mind and back up your data reliable and often. This repository contains a checklist (see below) with backup scripts and documents for a professional and comfortable local backup of your data.
 
@@ -20,11 +20,12 @@ Gain peace of mind and back up your data reliable and often. This repository con
 
 🪂 Recover your Data
 ---------------------
-- [ ] Select the backup harddisk with the **most recent** backup.
-- [ ] Check the disk - in case it's damaged read the [documents](docs/) and consider using the next one.
-- [ ] Connect the disk with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
-- [ ] Manually copy (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DO NOT move the data).
-- [ ] Disconnect the disk and store it in the separate and secure location again.
+- [ ] **Don't Panic**: there's a backup waiting for you, just follow step-by-step.
+- [ ] **Select the harddisk** with the latest (!) backup.
+- [ ] **Check the harddisk:** in case it's damaged read the [documents](docs/) and consider using another one.
+- [ ] **Connect the harddisk** with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
+- [ ] **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DO NOT move the data).
+- [ ] **Disconnect the harddisk** and store it in the separate and secure location again.
 
 ⚠️ Notes
 ---------
