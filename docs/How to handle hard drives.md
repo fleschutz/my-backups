@@ -2,7 +2,7 @@
 
 Hard drives can be damaged by to much physical force or from Electrostatic Discharge (ESD). Special handling is required to protect them from damage.
 
-| ![img](https://support.wdc.com/images/kb/note.png) | ESD damage is invisible to the eye and may not be discovered until later by way of slow performance or failure. Use these steps reduce the chance of damage. |
+| ![img](https://support.wdc.com/images/kb/note.png) | ESD damage is invisible to the eye and may not be discovered until later by way of slow performance or failure. Use these steps to reduce the chance of damage. |
 | -------------------------------------------------- | ------------------------------------------------------------ |
 |                                                    |                                                              |
 
