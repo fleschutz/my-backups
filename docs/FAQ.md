@@ -34,19 +34,19 @@ When deciding on a backup data storage strategy, there are different types of da
 
 * **Incremental backups:** Like a differential backup, incremental backups also only back up data that has been changed or added since the last backup. The difference is that incremental backups will back up any changed data since the last backup, whether it was a full, differential, or incremental backup. These types of backups are often performed by backup software because they can be done frequently due to their small size and fast backup time. 
 
-
 What is XYZ?
 ------------
 See the [Glossary of Backup Terms](Glossary.md), please.
 
-Can I start the backup scripts in parallel?
--------------------------------------------
-Yes, but it might not be faster (due to bottlenecks such as same source media or same backup disk).
+What about starting the backup scripts in parallel?
+---------------------------------------------------
+No problem, but don't expect much speed gains due to bottlenecks such as same source media or same backup disk.
 
-What's the problem with cloud backups?
---------------------------------------
-In a real disaster the internet is the first thing that doesn't work and afterward it's the last thing that will be up and running. In the meantime (which may last days/weeks/months) your backup is out of reach.
+What about copying other data onto the backup disk?
+---------------------------------------------------
+No problem, as long as there is enough disk space left.
 
-Is it OK to copy other data onto a backup disk?
------------------------------------------------
-Sure, as long as there is enough disk space left.
+Why not use a cloud backup only?
+--------------------------------
+In a real disaster the internet is the first thing that doesn't work and afterward it's the last thing that will be up and running.
+In the meantime (which may last days/weeks/months) your backup is out of reach.
