@@ -11,14 +11,14 @@ Data Gives You Peace of Mind - Knowing that your data is backed up can give you 
 
 What data should I back up? 
 ---------------------------
-Back up anything that can't be replaced if it's lost. For individuals, it's the entire digital life:
+Back up anything that can't be replaced if it's lost. For individuals, it's your entire digital life:
 
 * **Communication** such as: address books, emails, messenger, and so on.
 * **Memories** such as: pictures, family photos, travels, videos, etc.
 * **Digital favorites** such as: books, music albums, singles, playlists, wallpaper, ringtones, etc.
 * **Your work** such as: documents, spreadsheets, financial databases, source code, CAD drawings, etc.
 * **Digital wallet** with BitCoins, Ethereums, etc.
-* **Digital keys** for the office, digital shops, etc.
+* **Digital keys** for the office, internet shops and services, etc.
 
 For businesses, data backup options become a bit more technical — think of backing up customer databases, configuration files, machine images, operating systems, and registry files — and there’s typically an IT department in place to manage them.
 
