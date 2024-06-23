@@ -8,7 +8,7 @@ Gain peace of mind and back up your data reliable and often. This repository con
 - [ ] **Read the [documents](docs/)** to plan your personal backup strategy.
 - [ ] **Get hard drives** with enough capacity to hold all your data.
 - [ ] **Label them** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
-- [ ] **Download this [repository](archive/refs/tags/v0.2.zip)**, unzip it and copy it as top folder 📁*Backups4U* onto each harddisk.
+- [ ] **Download this [repository](https://github.com/fleschutz/Backups4U/archive/refs/tags/v0.2.zip)**, unzip it and copy it as top folder 📁*Backups4U* onto each harddisk.
 - [ ] **Set up an automatic reminder** to back up your data every day/week/month/etc.
 
 💾 Back up your Data
