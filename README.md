@@ -6,26 +6,26 @@ Gain peace of mind and back up your data reliable and often. This repository con
 📋 Planning & Preparation
 --------------------------
 - [ ] **Read the [documents](docs/)** to plan your personal backup strategy.
-- [ ] **Get harddisks** with enough capacity to hold all your data.
-- [ ] **Label the harddisks** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
-- [ ] **Download this repo** (see green button, then '*Download ZIP*') and unzip and copy it as top folder 📁*Backups4U* onto each harddisk.
+- [ ] **Get hard drives** with enough capacity to hold all your data.
+- [ ] **Label them** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
+- [ ] **Download this [repository](archive/refs/tags/v0.2.zip)**, unzip it and copy it as top folder 📁*Backups4U* onto each harddisk.
 - [ ] **Set up an automatic reminder** to back up your data every day/week/month/etc.
 
 💾 Back up your Data
 ---------------------
 - [ ] **Connect your mobile** devices to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
-- [ ] **Connect the next harddisk** to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
+- [ ] **Connect the next hard drive** to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
 - [ ] **Execute the appropriate scripts** one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures* folder into the subfolder 📁*BACKUPS/Pictures* on the backup disk.
-- [ ] **Disconnect the harddisk** and store it in a separate and secure location.
+- [ ] **Disconnect the hard drive** and store it in a separate and secure location.
 
 🪂 Recover your Data
 ---------------------
 - [ ] **Don't Panic**: there's a backup waiting for you, just follow step-by-step.
-- [ ] **Select the harddisk** with the latest (!) backup.
-- [ ] **Check the harddisk:** in case it's damaged read the [documents](docs/) and consider using another one.
-- [ ] **Connect the harddisk** with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
+- [ ] **Select the hard drive** with the latest (!) backup.
+- [ ] **Check the hard drive:** in case it's damaged read the [documents](docs/) and consider using another one.
+- [ ] **Connect the hard drive** with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
 - [ ] **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DO NOT move the data).
-- [ ] **Disconnect the harddisk** and store it in the separate and secure location again.
+- [ ] **Disconnect the hard drive** and store it in the separate and secure location again.
 
 ⚠️ Notes
 ---------
