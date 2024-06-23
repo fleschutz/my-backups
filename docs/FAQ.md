@@ -19,9 +19,8 @@ As a baseline, you should back up anything that can’t be replaced if it’s lo
 * Music files
 * Emails
 * Documents
-* Spreadsheets
-* Financial databases
-* Source code, CAD drawings, 
+* Spreadsheets, financial databases
+* Source code, CAD drawings
 
 For businesses, data backup options become a bit more technical — think of backing up customer databases, configuration files, machine images, operating systems, and registry files — and there’s typically an IT department in place to manage them.
 
