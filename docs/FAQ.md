@@ -1,5 +1,5 @@
-FAQ's regarding Data Backups & Recovery
-=======================================
+Data Backup FAQ's
+=================
 
 Why back up at all?
 -------------------
@@ -35,6 +35,10 @@ When deciding on a backup data storage strategy, there are different types of da
 What is XYZ?
 ------------
 See the [Glossary of Backup Terms](Glossary.md), please.
+
+How to handle hard drives?
+--------------------------
+See the [How to handle hard drives](How to handle hard drives.md), please.
 
 What about starting the backup scripts in parallel?
 ---------------------------------------------------
