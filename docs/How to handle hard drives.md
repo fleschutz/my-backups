@@ -16,9 +16,7 @@ Hard drives can easily be damaged by too much physical force, extreme temperatur
 - Touch bare metal on computer case. Remove the power plug.
 - Hold a hard drive by the sides.
 - Be careful when installing data and power connectors to avoid damaging connector pins.
-
-
-- Avoid subjecting the hard drive to extreme temperatures.
+- AVOID subjecting the hard drive to extreme temperatures.
 - DO NOT touch the connectors or the Printed Circuit Board.
 - DO NOT walk or stand on carpet. They generate static electricity.
 - DO NOT drop, jolt, or shake the hard drive. This will damage the drive.
