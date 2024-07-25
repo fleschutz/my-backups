@@ -1,14 +1,14 @@
-Local Data Backup & Recovery
-============================
+Data Backup & Recovery
+======================
 
-Gain peace of mind and back up your data reliable and often. This repository contains a checklist (see below) with backup scripts and documents for a professional and comfortable local backup of your data.
+Gain peace of mind and back up your data reliable and often. This repo contains a checklist (see below) with backup scripts and documents for a professional and comfortable local backup of your data.
 
 📋 Planning & Preparation
 --------------------------
 - [ ] **Read the [documents](docs/)** to plan your personal backup strategy.
 - [ ] **Get hard drives** with enough capacity to hold all your data.
 - [ ] **Label them** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
-- [ ] **Download this [repository](https://github.com/fleschutz/Backups4U/archive/refs/tags/v0.2.zip)** (5.8MB), unzip it, and copy it as top folder 📁*Backups4U* onto each backup harddisk.
+- [ ] **Download this [repo](https://github.com/fleschutz/Backups4U/archive/refs/tags/v0.2.zip)** (5.8MB), unzip it, and copy it as top folder 📁*Backups4U* onto each backup harddisk.
 - [ ] **Set up an automatic reminder** to back up your data every day/week/month/etc.
 
 💾 Back up your Data
