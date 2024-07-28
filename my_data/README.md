@@ -1,6 +1,4 @@
-Welcome to Subfolder 'my_data'
-==============================
+Welcome to the MY_DATA Subfolder
+================================
 
-This folder contains the data that has been backed up.
-
-To recover your data follow the [checklist](../README.md), please.
+This folder contains your data that has been backed up. To recover your data: Don't Panic and follow the [checklist](../README.md), please.
