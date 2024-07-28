@@ -20,8 +20,7 @@ Gain peace of mind and back up your data reliable and often. This repo contains 
 
 🪂 Recover your Data
 ---------------------
-- [ ] **Don't Panic**: there's a backup waiting for you, just follow step-by-step.
-- [ ] **Select the hard drive** with the latest (!) backup.
+- [ ] **Don't Panic and select the hard drive** with the latest (!) backup.
 - [ ] **Check the hard drive:** in case it's damaged read the [documents](docs/) and consider using the next one.
 - [ ] **Connect the hard drive** with the computer and open the top folder 📁*Backups4U* and then 📁*my_data*.
 - [ ] **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DON'T MOVE the data).
