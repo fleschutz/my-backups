@@ -2,7 +2,7 @@
 title Backup of your Documents 
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Documents\"
-set "TARGET=%~dp0..\BACKUPS\Documents\"
+set "TARGET=%~dp0..\my_data\Documents\"
 set OPTIONS=/mir /r:3 /w:10 /fft /njh /unicode
 set LOGFILE=..\Logbook.txt
 

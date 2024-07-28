@@ -2,7 +2,7 @@
 title Backup of Downloads 
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Downloads\"
-set "TARGET=%~dp0..\BACKUPS\Downloads\"
+set "TARGET=%~dp0..\my_data\Downloads\"
 set OPTIONS=/mir /r:3 /w:10 /fft /njh /unicode
 set LOGFILE=..\Logbook.txt
 

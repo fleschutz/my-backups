@@ -2,7 +2,7 @@
 title Backup of Dropbox 
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Dropbox\"
-set "TARGET=%~dp0..\BACKUPS\Dropbox\"
+set "TARGET=%~dp0..\my_data\Dropbox\"
 set OPTIONS=/mir /xa:o /r:3 /w:10 /fft /njh /unicode 
 set LOGFILE=..\Logbook.txt
 

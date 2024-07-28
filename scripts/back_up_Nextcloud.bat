@@ -2,7 +2,7 @@
 title Backup of Nextcloud
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Nextcloud\"
-set "TARGET=%~dp0..\BACKUPS\Nextcloud\"
+set "TARGET=%~dp0..\my_data\Nextcloud\"
 set OPTIONS=/mir /xa:o /r:3 /w:10 /fft /njh /unicode
 set LOGFILE=..\Logbook.txt
 
