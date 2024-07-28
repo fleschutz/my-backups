@@ -1,6 +1,6 @@
-Welcome to the BACKUPS Subfolder
-================================
+Welcome to Subfolder 'my_data'
+==============================
 
-This folder contains your data that has been backed up.
+This folder contains the data that has been backed up.
 
 To recover your data follow the [checklist](../README.md), please.
