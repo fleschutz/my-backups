@@ -15,7 +15,7 @@ Gain peace of mind and back up your data reliable and often. This repo contains 
 ---------------------
 - [ ] **Connect your mobile** devices to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
 - [ ] **Connect the next hard drive** to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
-- [ ] **Execute the appropriate scripts** one by one, e.g. 📄*back_up_Pictures.bat* which copies your 📁*Pictures* folder to the backup disk at: 📁*Backups4U/BACKUPS/Pictures*
+- [ ] **Execute the appropriate scripts** one by one, e.g. 📄*back_up_Pictures.bat* copying your 📁*Pictures* folder to 📁*Backups4U/my_data/Pictures* on the backup disk.
 - [ ] **Disconnect the hard drive** and store it in a separate and secure location.
 
 🪂 Recover your Data
@@ -23,7 +23,7 @@ Gain peace of mind and back up your data reliable and often. This repo contains 
 - [ ] **Don't Panic**: there's a backup waiting for you, just follow step-by-step.
 - [ ] **Select the hard drive** with the latest (!) backup.
 - [ ] **Check the hard drive:** in case it's damaged read the [documents](docs/) and consider using another one.
-- [ ] **Connect the hard drive** with the computer and open the top folder 📁*Backups4U* and then 📁*BACKUPS* (containing your data).
+- [ ] **Connect the hard drive** with the computer and open the top folder 📁*Backups4U* and then 📁*my_data*.
 - [ ] **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DO NOT move the data).
 - [ ] **Disconnect the hard drive** and store it in the separate and secure location again.
 
