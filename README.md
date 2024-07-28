@@ -5,7 +5,7 @@ Gain peace of mind and back up your data reliable and often. This repo contains 
 
 📋 Planning & Preparation
 --------------------------
-- [ ] **Read the [documents](docs/)** to plan your personal backup strategy.
+- [ ] **Read the [documents](documents/)** to plan your personal backup strategy.
 - [ ] **Get hard drives** with enough capacity to hold all your data.
 - [ ] **Label them** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
 - [ ] **Download this [repo](https://github.com/fleschutz/Backups4U/archive/refs/tags/v0.2.zip)** (5.8MB), unzip it, and copy it as top folder 📁*Backups4U* onto each backup harddisk.
@@ -21,7 +21,7 @@ Gain peace of mind and back up your data reliable and often. This repo contains 
 🪂 Recover your Data
 ---------------------
 - [ ] **Don't Panic and select the hard drive** with the latest (!) backup.
-- [ ] **Check the hard drive:** if it's damaged read the [documents](docs/) and consider using the next one.
+- [ ] **Check the hard drive:** if it's damaged read the [documents](documents/) and consider using the next one.
 - [ ] **Connect the hard drive** with the computer and open the top folder 📁*Backups4U* and then 📁*my_data*.
 - [ ] **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DON'T MOVE the data).
 - [ ] **Disconnect the hard drive** and store it in the separate and secure location again.
