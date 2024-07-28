@@ -1,4 +1,4 @@
-Welcome to the SCRIPTS Subfolder
-================================
+Welcome to the BACKUP_SCRIPTS
+=============================
 
-This folder contains .BAT scripts to perform the backups. Just execute the appropriate ones, one after another.
+This folder contains .BAT batch scripts to perform single backups. Just execute the appropriate ones, one after another.
