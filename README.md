@@ -15,7 +15,7 @@ Gain peace of mind and back up your data reliable and often. This repo contains 
 ---------------------
 - [ ] **Connect your mobile** devices to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
 - [ ] **Connect the next hard drive** to the PC and open the top folder 📁*Backups4U* and then 📁*scripts*.
-- [ ] **Execute the appropriate scripts** one by one, e.g. 📄*back_up_Pictures.bat* which copies the content of the 📁*Pictures* folder into the subfolder 📁*BACKUPS/Pictures* on the backup disk.
+- [ ] **Execute the appropriate scripts** one by one, e.g. 📄*back_up_Pictures.bat* which copies your 📁*Pictures* folder to the backup disk at: 📁*Backups4U/BACKUPS/Pictures*
 - [ ] **Disconnect the hard drive** and store it in a separate and secure location.
 
 🪂 Recover your Data
