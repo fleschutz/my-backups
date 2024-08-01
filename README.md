@@ -1,5 +1,5 @@
-My Data Backup & Recovery Solution
-==================================
+My Data Backup Checklist
+========================
 
 Gain peace of mind and back up your data reliable and often. This repo contains the following checklist with backup scripts and documents for a professional and comfortable local backup of your data.
 
