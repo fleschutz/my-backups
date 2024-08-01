@@ -1,7 +1,7 @@
 My Backup Checklist
 ===================
 
-Without data backups all your valuable data is at risk to vanish forever. This repo contains the following checklist with backup scripts and documents for a professional and comfortable local backup of your data.
+Only data backups can protect you from data loss! Follow this checklist with backup scripts and documents to perform a professional and comfortable local backup of your data.
 
 📋 Planning & Preparation
 --------------------------
