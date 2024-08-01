@@ -1,5 +1,5 @@
-My Data Backup Checklist
-========================
+My Backup Checklist
+===================
 
 Gain peace of mind and back up your data reliable and often. This repo contains the following checklist with backup scripts and documents for a professional and comfortable local backup of your data.
 
@@ -8,21 +8,21 @@ Gain peace of mind and back up your data reliable and often. This repo contains 
 - [ ] **Read the [documents](documents/)** to plan the best backup strategy.
 - [ ] **Get or [buy hard drives](https://www.amazon.com/s?k=hard+drives)** with enough capacity to hold all your data.
 - [ ] **Label them** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
-- [ ] **Download this [repo](https://github.com/fleschutz/Backups4U/archive/refs/tags/v0.2.zip)** (5.8MB), unzip it, and copy it as top folder 📁*Backups4U* onto each backup harddisk.
+- [ ] **Download this [repo](https://github.com/fleschutz/my-backups/archive/refs/tags/v0.2.zip)** (5.8MB), unzip it, and copy it as top folder 📁*my-backups* onto each backup harddisk.
 - [ ] **Set up an automatic reminder** to back up your data every day/week/month/etc.
 
 💾 Back up your Data
 ---------------------
 - [ ] **Connect your smartphone** to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
-- [ ] **Connect the next hard drive** to the PC and open the top folder 📁*Backups4U* and then 📁*backup_scripts*.
-- [ ] **Execute the backup scripts** one after another, e.g. 📄*copy_Pictures.bat* copying your 📁*Pictures* folder to the backup disk at: 📁*Backups4U/my_data/Pictures*
+- [ ] **Connect the next hard drive** to the PC and open the top folder 📁*my-backups* and then 📁*backup_scripts*.
+- [ ] **Execute the backup scripts** one after another, e.g. 📄*copy_Pictures.bat* copying your 📁*Pictures* folder to the backup disk at: 📁*my-backups/my_data/Pictures*
 - [ ] **Disconnect the hard drive** and store it in a separate (!) and secure (!) location.
 
 🪂 Recover your Data
 ---------------------
 - [ ] **Don't Panic and select the hard drive** with the latest (!) backup.
 - [ ] **Check the hard drive:** if it's damaged read the [documents](documents/) and consider using the next one.
-- [ ] **Connect the hard drive** with the computer and open the top folder 📁*Backups4U* and then 📁*my_data*.
+- [ ] **Connect the hard drive** with the computer and open the top folder 📁*my-backups* and then 📁*my_data*.
 - [ ] **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DON'T MOVE the data).
 - [ ] **Disconnect the hard drive** and store it in the separate and secure location again.
 
