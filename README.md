@@ -1,7 +1,7 @@
 My Backup Checklist
 ===================
 
-Gain peace of mind and back up your data reliable and often. This repo contains the following checklist with backup scripts and documents for a professional and comfortable local backup of your data.
+Without data backups all your valuable data is at risk to vanish forever. This repo contains the following checklist with backup scripts and documents for a professional and comfortable local backup of your data.
 
 📋 Planning & Preparation
 --------------------------
