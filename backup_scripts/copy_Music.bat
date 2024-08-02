@@ -4,7 +4,7 @@ title Backup of Music
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Music\"
 set "TARGET=%~dp0..\my_data\Music\"
 set OPTIONS=/mir /xa:o /r:3 /w:10 /fft /njh /unicode
-set LOGFILE=..\Logbook.txt
+set LOGFILE=..\Logbook.csv
 
 cls
 echo.
