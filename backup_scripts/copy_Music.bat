@@ -18,13 +18,13 @@ echo   This script will back up your Music folder...
 echo.
 echo.
 echo.
-echo         FROM : %SOURCE% 
+echo      FROM : %SOURCE% 
 echo.
-echo           TO : %TARGET% 
+echo        TO : %TARGET% 
 echo.
-echo      OPTIONS : robocopy %OPTIONS%
+echo   OPTIONS : robocopy %OPTIONS%
 echo.
-echo         NOTE : check everything, then press [Return] key or abort with [Ctrl] [C]
+echo      NOTE : press [Return] to continue or abort with [Ctrl] [C]
 echo.
 echo.
 echo.
@@ -34,19 +34,19 @@ echo.
 echo.
 pause
 
-echo %DATE%; %TIME%; %SOURCE%; Backup started; >>%LOGFILE%
+echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup started; >>%LOGFILE%
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
-echo %DATE%; %TIME%; %SOURCE%; Backup finished; >>%LOGFILE%
+echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 echo ------------------------------------------------------------------------------
 echo.
-echo.
 echo         #
 echo        #
-echo   #   #     Music folder backed up successfully.
+echo   #   #      Backup of Music folder succeeded.
 echo    # #
 echo     #            
 echo.
-timeout 10
+echo ------------------------------------------------------------------------------
+pause
 exit 0

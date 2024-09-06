@@ -15,13 +15,13 @@ echo       _________________________
 echo.
 echo.
 echo.
-echo    Source : %SOURCE%
+echo      FROM : %SOURCE%
 echo.
-echo    Target : %TARGET%
+echo        TO : %TARGET%
 echo.
-echo   Options : %OPTIONS% (mirror data)
+echo   OPTIONS : robocopy %OPTIONS%
 echo.
-echo      NOTE : check source and target (+ free space left), then press [RETURN]
+echo      NOTE : press [Return] to continue or abort with [Ctrl] [C]
 echo.
 echo.
 echo.
@@ -29,17 +29,19 @@ echo.
 echo.
 pause
 
-echo %DATE%; %TIME%; %SOURCE%; Backup started; >>%LOGFILE%
+echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup started; >>%LOGFILE%
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
-echo %DATE%; %TIME%; %SOURCE%; Backup finished; >>%LOGFILE%
+echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
+echo ------------------------------------------------------------------------------
 echo.
 echo         #
 echo        #
-echo   #   #     D: drive backed up to: %TARGET%
+echo   #   #      Backup of drive D: succeeded.
 echo    # #
 echo     #            
 echo.
+echo ------------------------------------------------------------------------------
 pause
 exit 0
