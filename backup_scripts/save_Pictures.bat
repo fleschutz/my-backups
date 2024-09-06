@@ -24,7 +24,6 @@ echo        TO : %TARGET%
 echo.
 echo   OPTIONS : robocopy %OPTIONS%
 echo.
-echo      NOTE : press [Return] to continue or abort with [Ctrl] [C]
 echo.
 echo.
 echo.
@@ -33,6 +32,7 @@ echo.
 echo.
 echo.
 echo.
+echo Press [Return] to continue or abort with [Ctrl] [C]...
 pause
 
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup started; >>%LOGFILE%
@@ -40,14 +40,13 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-echo ------------------------------------------------------------------------------
+echo ______________________________________________________________________________
 echo.
 echo         #
 echo        #
 echo   #   #      Backup of Pictures folder succeeded.
 echo    # #
 echo     #            
-echo.
-echo ------------------------------------------------------------------------------
+echo ______________________________________________________________________________
 pause
 exit 0
