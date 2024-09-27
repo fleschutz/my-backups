@@ -46,7 +46,9 @@ echo         #
 echo        #
 echo   #   #      Backup of All Users succeeded.
 echo    # #
-echo     #            
+echo     #   
 echo ______________________________________________________________________________
+echo.
+echo NOTE: When finished disconnect the hard drive and store it in a separate and secure location!
 pause
 exit 0
