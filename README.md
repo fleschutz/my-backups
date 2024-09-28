@@ -1,4 +1,4 @@
-My Backup Checklist
+![folder](C:\Users\Markus\Repos\my-backups\folder.jpg)The Backup Checklist
 ===================
 
 Only data backups can protect you from data loss! Follow this checklist with backup scripts and documents to perform a professional and comfortable local backup of your data.
@@ -6,9 +6,9 @@ Only data backups can protect you from data loss! Follow this checklist with bac
 📋 Planning & Preparation
 --------------------------
 - [ ] **Read the [documents](documents/)** first to plan the best backup strategy.
-- [ ] **Get or [buy hard drives](https://www.amazon.com/s?k=hard+drives)** with enough capacity to hold all your data.
-- [ ] **Label them** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
-- [ ] **Download this [repo](https://github.com/fleschutz/my-backups/archive/refs/tags/v0.2.zip)** (5.8MB), unzip it, and copy it as top folder 📁*my-backups* onto each backup harddisk.
+- [ ] **Get hard drives** with enough capacity to hold all your data.
+- [ ] **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
+- [ ] **Download this [repository](https://github.com/fleschutz/my-backups/archive/refs/tags/v0.2.zip)** (5.8MB), unzip it, and copy it as top folder 📁*my-backups* onto each backup harddisk.
 - [ ] **Set up an automatic reminder** to back up your data every day/week/month/etc.
 
 💾 Back up your Data
