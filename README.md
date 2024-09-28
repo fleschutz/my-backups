@@ -1,7 +1,7 @@
 ![folder](C:\Users\Markus\Repos\my-backups\folder.jpg)The Backup Checklist
 ===================
 
-Only data backups can protect you from data loss! Follow this checklist with backup scripts and documents to perform a professional and comfortable local backup of your data.
+Prevent data loss by backing up your valuable data! Just follow this checklist with backup scripts and documents to perform a professional, regular and comfortable local data backup.
 
 📋 Planning & Preparation
 --------------------------
