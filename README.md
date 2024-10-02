@@ -21,7 +21,7 @@ Prevent data loss by backing up your valuable data! Just follow this checklist w
 ---------------------------
 - [ ] 1. **Get the hard drive** with the latest (!) backup.
 - [ ] 2. **Check the hard drive:** in case it's damaged read the [documents](documents/).
-- [ ] 3. **Connect the hard drive** with the computer and open the top folder 📁*my-backups* and then 📁*my_data*.
+- [ ] 3. **Connect the hard drive** to the PC and open the top folder 📁*my-backups* and then 📁*my_data*.
 - [ ] 4. **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DON'T MOVE the data).
 - [ ] 5. **Disconnect the hard drive** and store it in the separate and secure location again.
 
