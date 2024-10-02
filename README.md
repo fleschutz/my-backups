@@ -14,7 +14,7 @@ Prevent data loss by backing up your valuable data! Just follow this checklist w
 ----------------------------
 - [ ] 1. **Connect your smartphone** to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
 - [ ] 2. **Connect the next hard drive** to the PC and open the top folder 📁*my-backups* and then 📁*backup_scripts*.
-- [ ] 3. **Execute the backup scripts** one after another, e.g. 📄*copy_Pictures.bat* copying your 📁*Pictures* folder to the backup disk at: 📁*my-backups/my_data/Pictures*
+- [ ] 3. **Execute the backup scripts** one after another, e.g. 📄*save_Pictures.bat* which copies your 📁*Pictures* folder to the backup disk at 📁*my-backups/my_data/Pictures*
 - [ ] 4. **Disconnect the hard drive** and store it in a separate (!) and secure (!) location.
 
 🪂 How to recover your Data
