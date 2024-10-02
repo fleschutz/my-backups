@@ -5,26 +5,26 @@ Prevent data loss by backing up your valuable data! Just follow this checklist w
 
 📋 Planning & Preparation
 --------------------------
-1. **Read the [documents](documents/)** first to plan the best backup strategy.
-2. **Get hard drives** with enough capacity to hold all your data.
-3. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
-4. **Download this [repository](https://github.com/fleschutz/my-backups/archive/refs/tags/v0.2.zip)** (5.8MB), unzip it, and copy it as top folder 📁*my-backups* onto each backup harddisk.
-5. **Set up an automatic reminder** to back up your data every day/week/month/etc.
+- [ ] 1. **Read the [documents](documents/)** first to plan the best backup strategy.
+- [ ] 2. **Get hard drives** with enough capacity to hold all your data.
+- [ ] 3. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
+- [ ] 4. **Download this [repository](https://github.com/fleschutz/my-backups/archive/refs/tags/v0.2.zip)** (5.8MB), unzip it, and copy it as top folder 📁*my-backups* onto each backup harddisk.
+- [ ] 5. **Set up an automatic reminder** to back up your data every day/week/month/etc.
 
 💾 Back up your Data
 ---------------------
-- [ ] **1. Connect your smartphone** to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
-- [ ] **2. Connect the next hard drive** to the PC and open the top folder 📁*my-backups* and then 📁*backup_scripts*.
-- [ ] **3. Execute the backup scripts** one after another, e.g. 📄*copy_Pictures.bat* copying your 📁*Pictures* folder to the backup disk at: 📁*my-backups/my_data/Pictures*
-- [ ] **4. Disconnect the hard drive** and store it in a separate (!) and secure (!) location.
+- [ ] 1. **Connect your smartphone** to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
+- [ ] 2. **Connect the next hard drive** to the PC and open the top folder 📁*my-backups* and then 📁*backup_scripts*.
+- [ ] 3. **Execute the backup scripts** one after another, e.g. 📄*copy_Pictures.bat* copying your 📁*Pictures* folder to the backup disk at: 📁*my-backups/my_data/Pictures*
+- [ ] 4. **Disconnect the hard drive** and store it in a separate (!) and secure (!) location.
 
 🪂 Recover your Data
 ---------------------
-1. **Get the hard drive** with the latest (!) backup.
-2. **Check the hard drive:** in case it's damaged read the [documents](documents/).
-3. **Connect the hard drive** with the computer and open the top folder 📁*my-backups* and then 📁*my_data*.
-4. **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DON'T MOVE the data).
-5. **Disconnect the hard drive** and store it in the separate and secure location again.
+- [ ] 1. **Get the hard drive** with the latest (!) backup.
+- [ ] 2. **Check the hard drive:** in case it's damaged read the [documents](documents/).
+- [ ] 3. **Connect the hard drive** with the computer and open the top folder 📁*my-backups* and then 📁*my_data*.
+- [ ] 4. **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DON'T MOVE the data).
+- [ ] 5. **Disconnect the hard drive** and store it in the separate and secure location again.
 
 ⚠️ Notes
 ---------
