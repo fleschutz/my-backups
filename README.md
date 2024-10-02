@@ -1,5 +1,5 @@
-![image](folder.jpg) The Backup Checklist
-=========================================
+![image](folder.jpg) The Offline Backup Checklist
+=================================================
 Prevent data loss by backing up your valuable data! Just follow this checklist with backup scripts and documents to perform a professional, regular and comfortable local data backup.
 
 📋 Planning & Preparation
