@@ -27,9 +27,9 @@ Prevent data loss by backing up your valuable data! Just follow this checklist w
 
 ⚠️ Notes
 ---------
-* At first a full backup is made (slow for big data), then from the next time on only changes are copied (way faster).
-* See the Logbook.txt (written by the backup scripts) for a history of your backups performed.
-* Recommended is the **3-2-1 rule**: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility). One of these copies should be stored offline to protect against ransomware attacks.
+* At first a full backup is made (slow for big data) - the next time only changes are copied which is extremely fast.
+* A backup history can be seen at 📁*my-backups/Logbook.txt* (written by the backup scripts).
+* Strongly recommended is the **3-2-1 rule**: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility). One of these copies should be stored offline to protect against ransomware attacks.
 * No encryption is performed to keep it simple and robust! Use an encryption program and a vault to protect your backups against unauthorized physical access.
 * Test your backups regularly to ensure that they are working properly. Restore your backups to a test environment and check that all of your data can be accessed as expected.
 * Feedback is welcome! Create a pull request or send your email feedback to: markus.fleschutz [at] gmail.com
