@@ -5,7 +5,7 @@ Prevent data loss by backing up your valuable data! Just follow this checklist w
 📋 Planning & Preparation
 --------------------------
 - [ ] 1. **Read the [documents](documents/)** to plan the best backup strategy.
-- [ ] 2. **Get hard drives** with enough capacity to hold all your data.
+- [ ] 2. **Get hard drives** with enough capacity to hold all your data (different types recommended).
 - [ ] 3. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
 - [ ] 4. **Download this [repository](https://github.com/fleschutz/my-backups/archive/refs/tags/v0.2.zip)** (5.8MB), then unzip and copy it as top folder 📁*my-backups* onto each backup harddisk.
 - [ ] 5. **Set up an automatic reminder** to back up your data every day/week/month/etc.
@@ -28,8 +28,8 @@ Prevent data loss by backing up your valuable data! Just follow this checklist w
 ⚠️ Notes
 ---------
 * At first a full backup is made (slow for big data) - the next time only changes are copied which is extremely fast.
-* A backup history can be seen at 📁*my-backups/Logbook.txt* (written by the backup scripts).
-* Strongly recommended is the **3-2-1 rule**: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility). One of these copies should be stored offline to protect against ransomware attacks.
+* **Follow the 3-2-1 rule**: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility). One of these copies should be stored offline to protect against ransomware attacks.
+* A backup history is available at: 📁*my-backups/Logbook.txt* (written by the backup scripts automatically).
 * No encryption is performed to keep it simple and robust! Use an encryption program and a vault to protect your backups against unauthorized physical access.
 * Test your backups regularly to ensure that they are working properly. Restore your backups to a test environment and check that all of your data can be accessed as expected.
 * Feedback is welcome! Create a pull request or send your email feedback to: markus.fleschutz [at] gmail.com
