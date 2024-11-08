@@ -36,15 +36,16 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-echo ______________________________________________________________________________
+echo ________________________________________________________________________________________
 echo.
 echo         #
 echo        #
-echo   #   #      Backup of drive E: succeeded.
+echo   #   #      Drive E: backed up.
 echo    # #
 echo     #            
-echo ______________________________________________________________________________
 echo.
-echo NOTE: When finished disconnect the hard drive and store it in a separate and secure location!
+echo NOTE: When finished disconnect the drive and store it in a separate and secure location!
+echo ________________________________________________________________________________________
+echo.
 pause
 exit 0
