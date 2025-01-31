@@ -14,8 +14,7 @@ echo               Backup of Git Repositories
 echo         ____________________________________
 echo.
 echo.
-echo   This script will back up your Repos folder...
-echo.
+echo   This script will back up your Git repositories...
 echo.
 echo.
 echo      FROM : %SOURCE% 
@@ -44,7 +43,7 @@ echo ___________________________________________________________________________
 echo.
 echo         #
 echo        #
-echo   #   #      Repos folder backed up.
+echo   #   #      Git repositories backed up.
 echo    # #
 echo     #            
 echo.
