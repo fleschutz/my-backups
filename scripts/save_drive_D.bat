@@ -3,7 +3,7 @@ title Drive D: Backup
 
 set "SOURCE=D:\"
 set "TARGET=%~dp0..\my_data\Backup_of_drive_D\"
-set OPTIONS=/MIR /FFT
+set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
 set LOGFILE=..\Logbook.csv
 
 cls

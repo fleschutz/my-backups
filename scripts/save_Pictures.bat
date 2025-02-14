@@ -3,7 +3,7 @@ title Backup of Pictures
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Pictures\"
 set "TARGET=%~dp0..\my_data\Pictures\"
-set OPTIONS=/mir /xa:o /r:3 /w:10 /fft /njh /unicode
+set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
 set LOGFILE=..\Logbook.csv
 
 cls
