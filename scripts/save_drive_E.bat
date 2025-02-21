@@ -17,11 +17,13 @@ echo.
 echo.
 echo    This script will back up your drive E:...
 echo.
-echo      FROM : %SOURCE%
 echo.
-echo        TO : %TARGET%
 echo.
-echo   OPTIONS : robocopy %OPTIONS%
+echo        FROM: %SOURCE%
+echo.
+echo          TO: %TARGET%
+echo.
+echo     OPTIONS: %OPTIONS% (for robocopy)
 echo.
 echo.
 echo.

@@ -17,11 +17,11 @@ echo.
 echo   This script will back up your Git repositories...
 echo.
 echo.
-echo      FROM : %SOURCE% 
+echo        FROM: %SOURCE%
 echo.
-echo        TO : %TARGET% 
+echo          TO: %TARGET%
 echo.
-echo   OPTIONS : robocopy %OPTIONS%
+echo     OPTIONS: %OPTIONS% (for robocopy)
 echo.
 echo.
 echo.
