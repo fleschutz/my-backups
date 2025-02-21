@@ -8,14 +8,14 @@ set LOGFILE=..\Logbook.csv
 
 cls
 echo.
-echo          _____________________________
+echo       _____________________________
 echo.  
-echo               Backup of Dropbox 
-echo          _____________________________
+echo            Backup of Dropbox 
+echo       _____________________________
 echo.
 echo.
-echo  This script will back up your Dropbox folder...
 echo.
+echo This script will copy your Dropbox folder...
 echo.
 echo.
 echo        FROM: %SOURCE%

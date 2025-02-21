@@ -14,8 +14,8 @@ echo            Backup of Downloads
 echo       _______________________________
 echo.
 echo.
-echo    This script will back up your Downloads folder...
 echo.
+echo This script will copy your Downloads folder...
 echo.
 echo.
 echo        FROM: %SOURCE%

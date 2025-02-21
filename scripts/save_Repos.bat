@@ -8,13 +8,14 @@ set LOGFILE=..\Logbook.csv
 
 cls
 echo.
-echo         ____________________________________
+echo      ____________________________________
 echo.
-echo               Backup of Git Repositories
-echo         ____________________________________
+echo            Backup of Git Repositories
+echo      ____________________________________
 echo.
 echo.
-echo   This script will back up your Git repositories...
+echo.
+echo This script will copy your Git repositories...
 echo.
 echo.
 echo        FROM: %SOURCE%

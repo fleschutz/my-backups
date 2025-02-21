@@ -8,14 +8,14 @@ set LOGFILE=..\Logbook.csv
 
 cls
 echo.
-echo         _______________________________
+echo      _______________________________
 echo.
-echo              Backup of Home Folder
-echo         _______________________________
+echo           Backup of Home Folder
+echo      _______________________________
 echo.
 echo.
-echo   This script will back up your Home folder...
 echo.
+echo This script will copy your Home folder...
 echo.
 echo.
 echo        FROM: %SOURCE%

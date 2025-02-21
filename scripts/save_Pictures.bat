@@ -8,14 +8,14 @@ set LOGFILE=..\Logbook.csv
 
 cls
 echo.
-echo         ____________________________________
+echo     ____________________________________
 echo.
-echo                 Backup of Pictures
-echo         ____________________________________
+echo             Backup of Pictures
+echo     ____________________________________
 echo.
 echo.
-echo   This script will back up your Pictures folder...
 echo.
+echo This script will copy your Pictures folder...
 echo.
 echo.
 echo        FROM: %SOURCE%

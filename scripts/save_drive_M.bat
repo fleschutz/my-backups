@@ -14,8 +14,8 @@ echo            Backup of Drive M:
 echo       ____________________________
 echo.
 echo.
-echo  This script will back up your drive M: ...
 echo.
+echo This script will copy your M: drive...
 echo.
 echo.
 echo        FROM: %SOURCE%

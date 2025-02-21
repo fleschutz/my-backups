@@ -14,8 +14,8 @@ echo              Backup of Desktop
 echo         ____________________________
 echo.
 echo.
-echo  This script will back up your Desktop folder...
 echo.
+echo This script will copy your Desktop folder...
 echo.
 echo.
 echo        FROM: %SOURCE%

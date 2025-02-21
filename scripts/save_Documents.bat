@@ -14,8 +14,8 @@ echo            Backup of Documents
 echo       _______________________________
 echo.
 echo.
-echo    This script will back up your Documents folder...
 echo.
+echo This script will copy your Documents folder...
 echo.
 echo.
 echo        FROM: %SOURCE%

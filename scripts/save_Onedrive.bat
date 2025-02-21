@@ -8,14 +8,14 @@ set LOGFILE=..\Logbook.csv
 
 cls
 echo.
-echo       _________________________________
+echo      _________________________________
 echo.
-echo              Backup of Onedrive
-echo       _________________________________
+echo             Backup of Onedrive
+echo      _________________________________
 echo.
 echo.
-echo  This script will back up your Onedrive folder...
 echo.
+echo This script will copy your Onedrive folder...
 echo.
 echo.
 echo        FROM: %SOURCE%

@@ -14,8 +14,8 @@ echo            Backup of All Users
 echo       ______________________________
 echo.
 echo.
-echo  This script will back up All Users ...
 echo.
+echo This script will copy all user directories...
 echo.
 echo.
 echo        FROM: %SOURCE%

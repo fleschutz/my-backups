@@ -15,8 +15,7 @@ echo       ____________________________
 echo.
 echo.
 echo.
-echo    This script will back up your drive E:...
-echo.
+echo This script will copy your E: drive...
 echo.
 echo.
 echo        FROM: %SOURCE%

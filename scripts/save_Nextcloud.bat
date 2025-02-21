@@ -8,14 +8,14 @@ set LOGFILE=..\Logbook.csv
 
 cls
 echo.
-echo         ______________________________
+echo       ______________________________
 echo.
-echo              Backup of Nextcloud
-echo         ______________________________
+echo            Backup of Nextcloud
+echo       ______________________________
 echo.
 echo.
-echo  This script will back up your Nextcloud folder...
 echo.
+echo This script will copy your Nextcloud folder...
 echo.
 echo.
 echo        FROM: %SOURCE%

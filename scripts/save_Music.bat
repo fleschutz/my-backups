@@ -8,14 +8,14 @@ set LOGFILE=..\Logbook.csv
 
 cls
 echo.
-echo       ____________________________________
+echo     ____________________________________
 echo.
 echo               Backup of Music
-echo       ____________________________________
+echo     ____________________________________
 echo.
 echo.
-echo   This script will back up your Music folder...
 echo.
+echo This script will copy your Music folder...
 echo.
 echo.
 echo        FROM: %SOURCE%

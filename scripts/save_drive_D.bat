@@ -15,6 +15,9 @@ echo       _________________________
 echo.
 echo.
 echo.
+echo This script will copy your D: drive...
+echo.
+echo.
 echo        FROM: %SOURCE%
 echo.
 echo          TO: %TARGET%
