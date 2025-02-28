@@ -38,10 +38,9 @@ robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 chcp 65001 >NUL
-echo _________________________________________________________________________________________________________________
+echo ------------------------------------------------------------------------------
 echo.
-echo ✅ Downloads folder backed up (when finished disconnect the drive and store it in a separate and secure location)
-echo _________________________________________________________________________________________________________________
+echo ✅ Downloads folder backed up, when finished disconnect the drive and store it in a separate and secure location.
 echo.
 pause
 exit 0

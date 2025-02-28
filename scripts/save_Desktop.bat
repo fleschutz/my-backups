@@ -40,10 +40,9 @@ robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 chcp 65001 >NUL
-echo _______________________________________________________________________________________________________________
+echo ------------------------------------------------------------------------------
 echo.
-echo ✅ Desktop folder backed up (when finished disconnect the drive and store it in a separate and secure location)
-echo _______________________________________________________________________________________________________________
+echo ✅ Desktop folder backed up, when finished disconnect the drive and store it in a separate and secure location.
 echo.
 pause
 exit 0
