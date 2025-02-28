@@ -40,16 +40,11 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-echo ________________________________________________________________________________________
+chcp 65001 >NUL
+echo _____________________________________________________________________________________________________________
 echo.
-echo         #
-echo        #
-echo   #   #      Git repositories backed up.
-echo    # #
-echo     #            
-echo.
-echo NOTE: When finished disconnect the drive and store it in a separate and secure location!
-echo ________________________________________________________________________________________
+echo ✅ Repos folder backed up (when finished disconnect the drive and store it in a separate and secure location)
+echo _____________________________________________________________________________________________________________
 echo.
 pause
 exit 0

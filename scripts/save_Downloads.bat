@@ -37,16 +37,11 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-echo ________________________________________________________________________________________
+chcp 65001 >NUL
+echo _________________________________________________________________________________________________________________
 echo.
-echo         #
-echo        #
-echo   #   #      Downloads folder backed up.
-echo    # #
-echo     #            
-echo.
-echo NOTE: When finished disconnect the drive and store it in a separate and secure location!
-echo ________________________________________________________________________________________
+echo ✅ Downloads folder backed up (when finished disconnect the drive and store it in a separate and secure location)
+echo _________________________________________________________________________________________________________________
 echo.
 pause
 exit 0
