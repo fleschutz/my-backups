@@ -39,7 +39,8 @@ echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title Nextcloud backed up!
 chcp 65001 >NUL
-echo ✅ Nextcloud folder backed up (when finished disconnect the drive and store it in a separate and secure location)
+echo ✅ Nextcloud folder backed up.
 echo.
+echo NOTE: when finished disconnect the drive and store it in a separate(!) and secure(!) location.
 pause
 exit 0

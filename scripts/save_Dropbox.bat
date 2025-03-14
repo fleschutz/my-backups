@@ -40,7 +40,8 @@ echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title Dropbox backed up!
 chcp 65001 >NUL
-echo ✅ Dropbox folder backed up (when finished disconnect the drive and store it in a separate and secure location)
+echo ✅ Dropbox folder backed up.
 echo.
+echo NOTE: when finished disconnect the drive and store it in a separate(!) and secure(!) location.
 pause
 exit 0

@@ -41,7 +41,8 @@ echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title Onedrive backed up!
 chcp 65001 >NUL
-echo ✅ Onedrive folder backed up (when finished disconnect the drive and store it in a separate and secure location)
+echo ✅ Onedrive folder backed up.
 echo.
+echo NOTE: when finished disconnect the drive and store it in a separate(!) and secure(!) location.
 pause
 exit 0
