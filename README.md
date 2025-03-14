@@ -1,6 +1,6 @@
 ![image](folder.jpg) Checklist for an Onsite Data Backup
 ========================================================
-Prevent data loss by backing up your valuable data! Follow this checklist to perform a professional, regular and comfortable onsite data backup.
+Prevent data loss by backing up your valuable data! Follow this checklist to perform a professional, regular and comfortable data backup (onsite for quick recovery, offline to prevent ransomware attacks).
 
 📋 Planning & Preparation
 --------------------------
