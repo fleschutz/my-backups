@@ -6,7 +6,7 @@ Prevent data loss by backing up your valuable data! Follow this checklist to per
 --------------------------
 - [ ] 1. **Read the [documents](docs/)** to plan the best backup strategy.
 - [ ] 2. **Get hard drives** with enough capacity (different vendors/models/types recommended).
-- [ ] 3. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
+- [ ] 3. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB VIDEO BACKUP #1*"), then connect them with the computer and rename the disks using the same name.
 - [ ] 4. **Download this [repository](https://github.com/fleschutz/my-backups/archive/refs/tags/v0.2.zip)** (5.8MB), then unzip and copy it as top folder 📁*my-backups* onto each backup harddisk.
 - [ ] 5. **Set up a reminder** in your digital calendar to back up your data every day/week/month/etc.
 
