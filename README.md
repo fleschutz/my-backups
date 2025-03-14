@@ -1,6 +1,6 @@
-![image](folder.jpg) The Offline Data Backup Checklist
-======================================================
-Prevent data loss by backing up your valuable data! Follow this checklist with backup scripts and documents to perform a professional, regular and comfortable local data backup.
+![image](folder.jpg) Checklist for an Onsite Data Backup
+========================================================
+Prevent data loss by backing up your valuable data! Follow this checklist to perform a professional, regular and comfortable onsite data backup.
 
 📋 Planning & Preparation
 --------------------------
