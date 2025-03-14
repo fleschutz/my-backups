@@ -1,8 +1,8 @@
 @echo off
-title Backup of Git Repositories
+title Backup of Git Repos
 
 set "SOURCE=C:\Repos"
-set "TARGET=%~dp0..\my_data\Repos\"
+set "TARGET=%~dp0..\my_data\Git_repos\"
 set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
 set LOGFILE=..\Logbook.csv
 
@@ -40,7 +40,7 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-title Git repos backed up!
+title Git Repos backed up!
 chcp 65001 >NUL
 echo ✅ Git repos backed up, when finished disconnect the drive and store it in a separate and secure location.
 echo.
