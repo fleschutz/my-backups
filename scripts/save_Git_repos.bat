@@ -42,7 +42,7 @@ echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title Git Repos backed up!
 chcp 65001 >NUL
-echo ✅ Git repos backed up, when finished disconnect the drive and store it in a separate and secure location.
+echo ✅ Git repos backed up (when finished disconnect the drive and store it in a separate and secure location)
 echo.
 pause
 exit 0
