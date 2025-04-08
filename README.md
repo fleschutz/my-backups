@@ -25,8 +25,8 @@ Prevent data loss by backing up your valuable data! Follow this checklist to per
 - [ ] 4. **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DON'T MOVE the data).
 - [ ] 5. **Disconnect the drive** and store it in the separate and secure location again.
 
-⚠️ Notes
----------
+💡 Hints
+--------
 * **A full backup** is made at first (slow for big data), but then only changes ("deltas") are copied in no time.
 * **A backup logbook** is updated automatically by the backup scripts ('Logbook.csv', a table in .CSV format with backup details).
 * **No encryption** is performed to keep it simple and robust! Use an encryption program and a vault to protect your backups against unauthorized physical access.
