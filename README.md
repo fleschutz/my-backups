@@ -28,7 +28,7 @@ Prevent data loss by backing up your valuable data! Follow this checklist to per
 ⚠️ Notes
 ---------
 * **A full backup** is made at first (slow for big data), but then only changes ("deltas") are copied in no time.
-* **A backup history** is available at: 📄*Logbook.csv* (table in .CSV format, updated by the backup scripts automatically).
+* **A backup logbook** is updated automatically by the backup scripts ('Logbook.csv', a table in .CSV format with backup details).
 * **No encryption** is performed to keep it simple and robust! Use an encryption program and a vault to protect your backups against unauthorized physical access.
 * **Test your backups** regularly to ensure that they are working properly. Restore your backups to a test environment and check that all of your data can be accessed as expected.
 * **Feedback is welcome!** Create a pull request or send your email feedback to: markus.fleschutz [at] gmail.com
