@@ -1,6 +1,6 @@
-![image](folder.jpg) Checklist for the Data Backup
-===================================================
-Prevent data loss by backing up your valuable data! Follow this checklist to perform a professional, regular and comfortable data backup (**OnSite** for quick recovery, **Offline** to prevent ransomware attacks).
+![image](folder.jpg) Checklist for Offline & OnSite Data Backups
+================================================================
+Prevent data loss by backing up your valuable data! Follow this checklist to perform a professional, regular and comfortable data backup (**Offline** to prevent ransomware attacks, **OnSite** for quick recovery).
 
 📋 Planning & Preparation
 --------------------------
