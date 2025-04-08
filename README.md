@@ -27,7 +27,6 @@ Prevent data loss by backing up your valuable data! Follow this checklist to per
 
 ⚠️ Notes
 ---------
-* **Follow the 3-2-1 rule**: Keep **3** copies of any important file (1 primary and 2 backups). Keep the files on **2** different media types to protect against different types of hazards. Store **1** copy offsite (e.g., outside your home or business facility). One of these copies should be stored offline to protect against ransomware attacks.
 * **A full backup** is made at first (slow for big data), but then only changes ("deltas") are copied in no time.
 * **A backup history** is available at: 📄*Logbook.csv* (table in .CSV format, updated by the backup scripts automatically).
 * **No encryption** is performed to keep it simple and robust! Use an encryption program and a vault to protect your backups against unauthorized physical access.
