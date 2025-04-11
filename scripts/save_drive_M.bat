@@ -41,10 +41,10 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-title Drive M: backed up!
 chcp 65001 >NUL
+title ✅ Drive M: backed up
 echo ✅ Drive M: backed up.
 echo.
-echo NOTE: when finished disconnect the drive and store it in a separate(!) and secure(!) location.
+echo NOTE: when finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause
 exit 0

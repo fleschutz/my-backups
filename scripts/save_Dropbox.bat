@@ -38,10 +38,10 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-title Dropbox backed up!
 chcp 65001 >NUL
+title ✅ Dropbox backed up
 echo ✅ Dropbox folder backed up.
 echo.
-echo NOTE: when finished disconnect the drive and store it in a separate(!) and secure(!) location.
+echo NOTE: when finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause
 exit 0
