@@ -41,6 +41,6 @@ chcp 65001 >NUL
 title ✅ Drive D: backed up
 echo ✅ Drive D: backed up.
 echo.
-echo NOTE: when finished eject the drive properly and store it in a separate(!) and secure(!) location.
+echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause
 exit 0

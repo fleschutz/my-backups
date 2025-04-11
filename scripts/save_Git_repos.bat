@@ -44,6 +44,6 @@ chcp 65001 >NUL
 title ✅ Git repos backed up
 echo ✅ Git repositories backed up.
 echo.
-echo NOTE: when finished eject the drive properly and store it in a separate(!) and secure(!) location.
+echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause
 exit 0

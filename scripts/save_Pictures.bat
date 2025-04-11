@@ -45,6 +45,6 @@ chcp 65001 >NUL
 title ✅ Pictures backed up
 echo ✅ Backup of your pictures folder succeeded.
 echo.
-echo NOTE: when finished eject the drive properly and store it in a separate(!) and secure(!) location.
+echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause
 exit 0

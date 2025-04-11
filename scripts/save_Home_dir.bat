@@ -43,6 +43,6 @@ chcp 65001 >NUL
 title ✅ Home dir backed up
 echo ✅ Home directory backed up.
 echo.
-echo NOTE: when finished eject the drive properly and store it in a separate(!) and secure(!) location.
+echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause
 exit 0
