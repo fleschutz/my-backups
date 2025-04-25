@@ -1,5 +1,6 @@
 @echo off
-title Backup of your Documents 
+chcp 65001 >NUL
+title ⏳ Backup of Documents 
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Documents\"
 set "TARGET=%~dp0..\my_data\Documents\"
@@ -29,15 +30,14 @@ echo.
 echo.
 echo.
 echo.
-echo Press [Return] to continue or abort with [Ctrl] [C]...
-pause
+echo Hold on to start the backup... (or abort with [Ctrl] [C])
+timeout 5
 
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup started; >>%LOGFILE%
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-chcp 65001 >NUL
 title ✅ Documents backed up
 echo ✅ Documents folder backed up.
 echo.

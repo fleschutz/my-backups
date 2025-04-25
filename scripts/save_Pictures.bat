@@ -1,5 +1,6 @@
 @echo off
-title Backup of Pictures
+chcp 65001 >NUL
+title ⏳ Backup of Pictures
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Pictures\"
 set "TARGET=%~dp0..\my_data\Pictures\"
@@ -32,7 +33,7 @@ echo.
 echo.
 echo.
 echo.
-echo Backup about to start or abort with [Ctrl] [C]...
+echo Hold on to start the backup... (or abort with [Ctrl] [C])
 timeout 5
 
 
@@ -41,7 +42,6 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-chcp 65001 >NUL
 title ✅ Pictures backed up
 echo ✅ Backup of your pictures folder succeeded.
 echo.

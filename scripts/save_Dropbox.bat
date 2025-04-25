@@ -1,5 +1,6 @@
 @echo off
-title Backup of Dropbox 
+chcp 65001 >NUL
+title ⏳ Backup of Dropbox 
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Dropbox\"
 set "TARGET=%~dp0..\my_data\Dropbox\"
@@ -30,15 +31,14 @@ echo.
 echo.
 echo.
 echo.
-echo Press [Return] to continue or abort with [Ctrl] [C]...
-pause
+echo Hold on to start the backup... (or abort with [Ctrl] [C])
+timeout 5
 
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup started; >>%LOGFILE%
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-chcp 65001 >NUL
 title ✅ Dropbox backed up
 echo ✅ Dropbox folder backed up.
 echo.

@@ -1,5 +1,6 @@
 @echo off
-title Backup of All Users
+chcp 65001 >NUL
+title ⏳ Backup of All Users
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\..\"
 set "TARGET=%~dp0..\my_data\All_Users\"
@@ -32,15 +33,14 @@ echo.
 echo.
 echo.
 echo.
-echo Press [Return] to continue or abort with [Ctrl] [C]...
-pause
+echo Hold on to start the backup... (or abort with [Ctrl] [C])
+timeout 5
 
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup started; >>%LOGFILE%
 if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-chcp 65001 >NUL
 title ✅ All users backed up
 echo ✅ All home directories backed up.
 echo.
