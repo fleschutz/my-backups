@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backup of Nextcloud
+title ⏳ Backing up Nextcloud
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Nextcloud\"
 set "TARGET=%~dp0..\my_data\Nextcloud\"
@@ -39,7 +39,7 @@ robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title ✅ Nextcloud backed up
-echo ✅ Nextcloud folder backed up.
+echo ✅ Nextcloud folder backed up successfully.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause

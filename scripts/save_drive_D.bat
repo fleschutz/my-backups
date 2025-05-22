@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backup of D: 
+title ⏳ Backing up D: drive
 
 set "SOURCE=D:\"
 set "TARGET=%~dp0..\my_data\Backup_of_drive_D\"
@@ -39,7 +39,7 @@ robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title ✅ Drive D: backed up
-echo ✅ Drive D: backed up.
+echo ✅ Drive D: backed up successfully.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause

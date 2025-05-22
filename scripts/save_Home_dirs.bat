@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backup of All Users
+title ⏳ Backing up Home dirs
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\..\"
 set "TARGET=%~dp0..\my_data\All_Users\"
@@ -11,12 +11,12 @@ cls
 echo.
 echo       ______________________________
 echo.
-echo            Backup of All Users
+echo         Backup of Home Directories
 echo       ______________________________
 echo.
 echo.
 echo.
-echo This script will copy all user directories...
+echo This script will copy all home directories...
 echo.
 echo.
 echo        FROM: %SOURCE%
@@ -41,8 +41,8 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-title ✅ All users backed up
-echo ✅ All home directories backed up.
+title ✅ Home dirs backed up
+echo ✅ Home directories backed up successfully.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause

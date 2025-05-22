@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backup of Music
+title ⏳ Backing up Music
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Music\"
 set "TARGET=%~dp0..\my_data\Music\"
@@ -41,7 +41,7 @@ robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title ✅ Music backed up
-echo ✅ Music folder backed up.
+echo ✅ Music folder backed up successfully.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause

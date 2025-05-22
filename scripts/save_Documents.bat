@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backup of Documents 
+title ⏳ Backing up Documents
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Documents\"
 set "TARGET=%~dp0..\my_data\Documents\"
@@ -39,7 +39,7 @@ robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title ✅ Documents backed up
-echo ✅ Documents folder backed up.
+echo ✅ Documents folder backed up successfully.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause

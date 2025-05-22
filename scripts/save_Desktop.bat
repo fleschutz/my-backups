@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backup of Desktop
+title ⏳ Backing up Desktop 
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Desktop\"
 set "TARGET=%~dp0..\my_data\Desktop\"
@@ -40,8 +40,8 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-title ✅ Desktop backed up
-echo ✅ Desktop folder backed up.
+title ✅ Desktop folder backed up
+echo ✅ Desktop folder backed up successfully.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause

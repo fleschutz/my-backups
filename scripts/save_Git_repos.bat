@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backup of Repos
+title ⏳ Backing up Repos
 
 set "SOURCE=C:\Repos"
 set "TARGET=%~dp0..\my_data\Git_repos\"
@@ -41,8 +41,8 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-title ✅ Git repos backed up
-echo ✅ Git repositories backed up.
+title ✅ Repos backed up
+echo ✅ Git repositories backed up successfully.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause

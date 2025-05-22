@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backup of Onedrive
+title ⏳ Backing up Onedrive
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Onedrive\"
 set "TARGET=%~dp0..\my_data\Onedrive\"
@@ -41,7 +41,7 @@ robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title ✅ Onedrive backed up
-echo ✅ Onedrive folder backed up.
+echo ✅ Onedrive folder backed up successfully.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause
