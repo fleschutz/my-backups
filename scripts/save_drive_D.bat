@@ -38,7 +38,7 @@ if not exist "%TARGET%" mkdir "%TARGET%"
 robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
-title ✅ Drive D: backed up
+title ✅ Backup succeeded
 echo ✅ Backup of drive D: succeeded.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
