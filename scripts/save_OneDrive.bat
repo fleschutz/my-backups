@@ -1,9 +1,9 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backing up Onedrive
+title ⏳ Backing up OneDrive
 
-set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Onedrive\"
-set "TARGET=%~dp0..\my_data\Onedrive\"
+set "SOURCE=%HOMEDRIVE%%HOMEPATH%\OneDrive\"
+set "TARGET=%~dp0..\my_data\OneDrive\"
 set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
 set LOGFILE=..\Logbook.csv
 
@@ -11,12 +11,12 @@ cls
 echo.
 echo      _________________________________
 echo.
-echo             Backup of Onedrive
+echo             Backup of OneDrive
 echo      _________________________________
 echo.
 echo.
 echo.
-echo This script will copy your Onedrive folder...
+echo This script will copy your OneDrive folder...
 echo.
 echo.
 echo        FROM: %SOURCE%
@@ -41,7 +41,7 @@ robocopy %SOURCE% %TARGET% %OPTIONS%
 echo %DATE%; %TIME%; %COMPUTERNAME%; %SOURCE%; Backup finished; >>%LOGFILE%
 
 title ✅ Backup succeeded
-echo ✅ Backup of Onedrive folder succeeded.
+echo ✅ Your OneDrive folder is backed up.
 echo.
 echo 💡 When finished eject the drive properly and store it in a separate(!) and secure(!) location.
 pause
