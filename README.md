@@ -28,8 +28,8 @@ Nowadays, data loss is a disaster! This checklist helps to perform professional,
 
 💡 Hints
 --------
-* **A full backup** is made at first (slow for big data), but then only changes ("deltas") are copied in no time.
-* **A backup logbook** is updated automatically by the backup scripts ('Logbook.csv', a table in .CSV format with backup details).
+* **Full backups** are only made once (slow for big data), but then only changes ("deltas") are copied in no time.
+* **A logbook** is updated automatically by the backup scripts ('Logbook.csv', a table in .CSV format with backup details).
 * **No encryption** is currently performed to keep it simple and robust! We recommend an encryption program and a vault to prevent unauthorized access.
 * **Test your backups** regularly to ensure that they are working properly. Restore your backups to a test environment and check that all of your data can be accessed as expected.
 * **Feedback is welcome!** Create a pull request or send your email feedback to: markus.fleschutz [at] gmail.com
