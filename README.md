@@ -1,10 +1,10 @@
-![image](folder.jpg) Checklist for Professional Data Backups
-=============================================================
-Prevent data loss by backing up your valuable data! Follow this checklist to perform a professional, regular and comfortable data backup (*offline* to prevent ransomware attacks and *on site* for quick recovery).
+![image](folder.jpg) Bulletproof Data Backups
+=============================================
+Nowadays, data loss is a disaster! This checklist helps to perform professional, regular and comfortable backups. The backup is performed *on site* for quick recovery and kept *offline* to prevent ransomware attacks.
 
 📋 Planning & Preparation
 --------------------------
-- [ ] 1. **[Read the documents](docs/)** first to plan the best backup strategy, e.g. [3-2-1](docs/3-2-1_Backup_Strategy.md).
+- [ ] 1. **[Read the documents](docs/)** first to find your personal backup strategy, e.g. [3-2-1](docs/3-2-1_Backup_Strategy.md).
 - [ ] 2. **Get hard drives** with enough backup capacity (use different vendors/models/types).
 - [ ] 3. **Check the hard drives** for errors and use error-free ones only.
 - [ ] 4. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
