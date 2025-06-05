@@ -5,7 +5,7 @@ Nowadays, data loss is a disaster! This checklist helps to perform professional,
 📋 Planning & Preparation
 --------------------------
 - [ ] 1. **[Read the documents](docs/)** to plan your strategy, recommended is the [3-2-1 backup strategy](docs/3-2-1_Backup_Strategy.md).
-- [ ] 2. **Get hard drives** with enough backup capacity (use different vendors/models/types and maybe even rugged ones).
+- [ ] 2. **Get hard drives** with enough backup capacity (use different vendors/models/types and maybe rugged ones).
 - [ ] 3. **Check the hard drives** for errors and use error-free ones only.
 - [ ] 4. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*"), then connect them with the computer and rename the disks using the same name.
 - [ ] 5. **Download this [repository](https://github.com/fleschutz/my-backups/archive/refs/tags/v0.2.zip)** (5.8MB), then unzip and copy it as top folder 📁*my-backups* onto each backup harddisk.
