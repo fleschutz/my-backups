@@ -12,3 +12,5 @@ Data loss essentially refers to the destruction of data. It can be intentional, 
 * **Malfunction of other hardware** - A critical hardware component has malfunctioned and you’re unable to access your data.
 * **Power failures** - Sudden power failure can interrupt delicate write processes, leaving data in a corrupted state.
 * **Natural disasters** - Your data is lost as a result of physical damage caused by a natural disaster.
+* **Out-dated formats** - Your data is in a file format that cannot be opened by modern software.
+* **Bit rot** - The gradual corruption of data due to an accumulation of non-critical failures in a data storage device.
