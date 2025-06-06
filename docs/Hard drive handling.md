@@ -1,4 +1,5 @@
-# How to Handle Hard Drives
+Hard Drive Handling
+===================
 
 Hard drives can easily be damaged by too much physical force, extreme temperatures, or from Electrostatic Discharge (ESD). Special handling is required to protect them from damage.
 
@@ -28,4 +29,4 @@ Hard drives can easily be damaged by too much physical force, extreme temperatur
 - DO NOT force or hammer drive connections.
 - DO NOT block or cover any air filter holes on the drives.
 
-Source: Western Digital
+*Source:* Western Digital
