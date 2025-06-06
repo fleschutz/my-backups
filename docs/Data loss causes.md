@@ -3,7 +3,7 @@ Data Loss Causes
 
 Data loss essentially refers to the destruction of data. It can be intentional, but it’s often not. It can be caused by many things:
 
-* **Human error** -  Either through accidental deletion or formatting, some or all of the is deleted.
+* **Human error** -  Either through accidental deletion or formatting, some or all of the data is deleted.
 * **Software corruption** - Your file system or data has become corrupted and you’re no longer able to access your data.
 * **Infection by viruses or malware** - The virus has attacked your file system and corrupted it, preventing you from accessing your data.
 * **Hacker attacks or internal leaks** - Your sensitive data is compromised, putting you and/or your business at risk.
