@@ -3,7 +3,7 @@ chcp 65001 >NUL
 title ⏳ Backing up Repos
 
 set "SOURCE=C:\Repos"
-set "TARGET=%~dp0..\my_data\Git_repos\"
+set "TARGET=%~dp0..\DATA\Git_repos\"
 set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
 set LOGFILE=..\Logbook.csv
 

@@ -3,7 +3,7 @@ chcp 65001 >NUL
 title ⏳ Backing up Nextcloud
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Nextcloud\"
-set "TARGET=%~dp0..\my_data\Nextcloud\"
+set "TARGET=%~dp0..\DATA\Nextcloud\"
 set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
 set LOGFILE=..\Logbook.csv
 

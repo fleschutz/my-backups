@@ -3,7 +3,7 @@ chcp 65001 >NUL
 title ⏳ Backing up M:
 
 set "SOURCE=M:\"
-set "TARGET=%~dp0..\my_data\Drive_M\"
+set "TARGET=%~dp0..\DATA\Drive_M\"
 set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
 set LOGFILE=..\Logbook.csv
 

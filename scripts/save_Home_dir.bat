@@ -3,7 +3,7 @@ chcp 65001 >NUL
 title ⏳ Backing up Home 
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\"
-set "TARGET=%~dp0..\my_data\Home_Dir\"
+set "TARGET=%~dp0..\DATA\Home_dir\"
 set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
 set LOGFILE=..\Logbook.csv
 

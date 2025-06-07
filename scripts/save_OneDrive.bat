@@ -3,7 +3,7 @@ chcp 65001 >NUL
 title ⏳ Backing up OneDrive
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\OneDrive\"
-set "TARGET=%~dp0..\my_data\OneDrive\"
+set "TARGET=%~dp0..\DATA\OneDrive\"
 set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
 set LOGFILE=..\Logbook.csv
 
