@@ -1,7 +1,7 @@
 Welcome to the DATA Folder
 ==========================
 
-This folder will contain (or already contains) all your data that has been backed up.
+This folder will contain all your data that has been backed up (or already contains it).
 
 - The [Logbook.csv](Logbook.csv) file contains all the details of the past backups.
 - To perform a backup follow the [checklist](../README.md), please.
