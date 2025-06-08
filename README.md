@@ -1,4 +1,4 @@
-![image](folder.jpg) Bulletproof Backups
+![image](docs/folder.jpg) Bulletproof Backups
 ========================================
 Nowadays, data loss is a disaster! This checklist helps to perform professional, regular and comfortable backups. The backup is performed *on site* for quick recovery and kept *offline* to prevent ransomware attacks.
 
