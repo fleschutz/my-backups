@@ -9,7 +9,7 @@ Nowadays, data loss is a disaster! This checklist helps to perform professional,
 - [ ] 3. **Check the hard drives** for errors and use error-free ones only.
 - [ ] 4. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*")
 - [ ] 5. **Connect the hard drives** with the computer and rename the disks using the same name.
-- [ ] 6. **[Download the repo](https://github.com/fleschutz/bulletproof-backups/archive/refs/tags/v0.2.zip)**  (5.8MB), then unzip it as top folder 📁*bulletproof-backups* onto each hard drive.
+- [ ] 6. **[Download this repo](https://github.com/fleschutz/bulletproof-backups/archive/refs/tags/v0.2.zip)**  (5.8MB), then unzip it as top folder 📁*bulletproof-backups* onto each hard drive.
 - [ ] 7. **Set up a reminder** in your digital calendar to back up your data every day/week/month/etc.
 
 💾 How to back up your Data
