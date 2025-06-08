@@ -1,6 +1,8 @@
-The 'DATA' Folder
-====================
+Welcome to the DATA Folder
+==========================
 
 This folder will contain (or already contains) all your data that has been backed up.
 
-**NOTE:** In case you want to recover your data: Don't Panic and follow the [checklist](../README.md), please.
+- To plan your backup strategy read the [documents](../docs/), please.
+- To perform a backup follow the [checklist](../README.md), please.
+- To recover your data follow the [checklist](../README.md), please.
