@@ -5,7 +5,7 @@ title ⏳ Backing up Dropbox
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Dropbox\"
 set "TARGET=%~dp0..\DATA\Dropbox\"
 set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
-set LOGFILE=..\Logbook.csv
+set LOGFILE=..\DATA\Logbook.csv
 
 cls
 echo.

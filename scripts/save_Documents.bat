@@ -5,7 +5,7 @@ title ⏳ Backing up Documents
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\Documents\"
 set "TARGET=%~dp0..\DATA\Documents\"
 set OPTIONS=/MIR /FFT /SL /NJH /NFL /xa:o /r:3 /w:10 /unicode
-set LOGFILE=..\Logbook.csv
+set LOGFILE=..\DATA\Logbook.csv
 
 cls
 echo.
