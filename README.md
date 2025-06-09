@@ -15,7 +15,7 @@ Nowadays, data loss is a disaster! Prevent this with regular data backups as des
 💾 How to back up your Data
 ----------------------------
 - [ ] 1. **Connect your mobile devices** to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
-- [ ] 2. **Connect the next hard drive** to the PC and open the folder 📁*bulletproof-backups/scripts*.
+- [ ] 2. **Connect the next hard drive** to the PC and open the folders 📁*bulletproof-backups/scripts*.
 - [ ] 3. **Execute the backup scripts** one by one, e.g. 📄*save_Home_dir.bat* to copy your PC home folder (containing your pictures, docs, etc.) to the drive at 📁*bulletproof-backups/DATA*
 - [ ] 4. **Disconnect the drive** *properly* and store it *carefully* in a *separate* and *secure* location.
 
@@ -23,7 +23,7 @@ Nowadays, data loss is a disaster! Prevent this with regular data backups as des
 ---------------------------
 - [ ] 1. **Get the hard drive** with the latest (!) backup. Check the logbook if in doubt.
 - [ ] 2. **Check the hard drive:** in case it's damaged read the [documents](docs/).
-- [ ] 3. **Connect the hard drive** to the PC and open the folder 📁*bulletproof-backups/DATA*.
+- [ ] 3. **Connect the hard drive** to the PC and open the folders 📁*bulletproof-backups/DATA*.
 - [ ] 4. **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DON'T MOVE the data).
 - [ ] 5. **Disconnect the drive** *properly* and store it *carefully* in a *separate* and *secure* location again.
 
