@@ -4,26 +4,26 @@ Nowadays, data loss is a disaster! This checklist helps to perform professional,
 
 📋 Planning & Preparation
 --------------------------
-- [ ] 1. **[Read the documents](docs/)** to plan your strategy, recommended is the [3-2-1 backup strategy](docs/3-2-1_Backup_Strategy.md).
-- [ ] 2. **Get hard drives** with enough backup capacity (use different vendors/models/types and maybe rugged ones).
+- [ ] 1. **[Read the documents](docs/)** to plan your backup strategy, strongly recommended is [3-2-1](docs/3-2-1_Backup_Strategy.md).
+- [ ] 2. **Get hard drives** with enough capacity (use different vendors/models/types and maybe rugged ones).
 - [ ] 3. **Check the hard drives** for errors and use error-free ones only.
-- [ ] 4. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUP DISK #1*")
+- [ ] 4. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUPS #1*")
 - [ ] 5. **Connect the hard drives** with the computer and rename the disks using the same name.
 - [ ] 6. **[Download this repo](https://github.com/fleschutz/bulletproof-backups/archive/refs/tags/v0.2.zip)**  (5.8MB), then unzip it as top folder 📁*bulletproof-backups* onto each hard drive.
 - [ ] 7. **Set up a reminder** in your digital calendar to back up your data every day/week/month/etc.
 
 💾 How to back up your Data
 ----------------------------
-- [ ] 1. **Connect your smartphone** to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
-- [ ] 2. **Connect the next hard drive** to the PC and open the top folder 📁*bulletproof-backups* and then 📁*scripts*.
-- [ ] 3. **Execute the backup scripts** one after another, e.g. 📄*save_Pictures.bat* which copies your 📁*Pictures* folder to the backup disk at 📁*bulletproof-backups/DATA/Pictures*
+- [ ] 1. **Connect your mobile devices** to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
+- [ ] 2. **Connect the next hard drive** to the PC and open the folder 📁*bulletproof-backups/scripts*.
+- [ ] 3. **Execute the backup scripts** one by one, e.g. 📄*save_Pictures.bat* which copies your 📁*Pictures* folder to the backup disk at 📁*bulletproof-backups/DATA/Pictures*
 - [ ] 4. **Disconnect the drive** properly and store it carefully in a separate (!) and secure (!) location.
 
 🪂 How to recover your Data
 ---------------------------
-- [ ] 1. **Get the hard drive** with the latest (!) backup.
+- [ ] 1. **Get the hard drive** with the latest (!) backup. Check the logbook if in doubt.
 - [ ] 2. **Check the hard drive:** in case it's damaged read the [documents](docs/).
-- [ ] 3. **Connect the hard drive** to the PC and open the top folder 📁*bulletproof-backups* and then 📁*DATA*.
+- [ ] 3. **Connect the hard drive** to the PC and open the folder 📁*bulletproof-backups/DATA*.
 - [ ] 4. **Manually copy** (=overwrite files) or sync (=overwrite folder content) the missing or corrupted data back to the computer (but DON'T MOVE the data).
 - [ ] 5. **Disconnect the drive** properly and store it carefully in the separate and secure location again.
 
