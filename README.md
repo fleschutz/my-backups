@@ -4,7 +4,7 @@ Nowadays, data loss is a disaster! Prevent this with regular data backups as des
 
 📋 Planning & Preparation
 --------------------------
-- [ ] 1. **[Read the documents](docs/)** to plan your backup strategy, recommended is [3-2-1](docs/3-2-1_Backup_Strategy.md).
+- [ ] 1. **[Read the documents](docs/)** to plan your backup strategy, recommended is [3-2-1](docs/3-2-1_backup_strategy.md).
 - [ ] 2. **[Buy hard drives](https://www.amazon.com/s?k=harddisk)** with enough capacity (use different vendors/models/types and maybe rugged ones).
 - [ ] 3. **Check the hard drives** for errors and use error-free ones only.
 - [ ] 4. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUPS #1*")
