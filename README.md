@@ -16,8 +16,8 @@ Nowadays, data loss is a disaster! Prevent this with regular data backup as desc
 ----------------------------
 - [ ] 1. **Connect your mobile devices** to the PC and copy photos into the *Pictures* folder, documents into the *Documents* folder, and so on.
 - [ ] 2. **Connect the next hard drive** to the PC and open the folder 📁*bulletproof-backups/scripts*.
-- [ ] 3. **Execute the backup scripts** one by one, e.g. 📄*save_Pictures.bat* which copies your 📁*Pictures* folder to the backup disk at 📁*bulletproof-backups/DATA/Pictures*
-- [ ] 4. **Disconnect the drive** properly and store it carefully in a separate (!) and secure (!) location.
+- [ ] 3. **Execute the backup scripts** one by one, e.g. 📄*save_Pictures.bat* to copy the PC's pictures to the drive at 📁*bulletproof-backups/DATA*
+- [ ] 4. **Disconnect the drive** properly and store it carefully (!) in a separate (!) and secure (!) location.
 
 🪂 How to recover your Data
 ---------------------------
