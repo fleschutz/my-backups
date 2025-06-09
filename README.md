@@ -1,6 +1,6 @@
 ![image](docs/folder.jpg) Bulletproof Backups
 ========================================
-Nowadays, data loss is a disaster! Prevent this with regular data backup as described below. The backup is performed *on site* for quick recovery and kept *offline* to prevent ransomware attacks.
+Nowadays, data loss is a disaster! Prevent this with regular data backups as described below. The backup is performed *on site* for quick recovery and kept *offline* to prevent ransomware attacks.
 
 📋 Planning & Preparation
 --------------------------
