@@ -1,10 +1,10 @@
 ![image](docs/folder.jpg) Bulletproof Backups
 ========================================
-Nowadays, data loss is a disaster! This checklist helps to perform professional, regular and comfortable backups. The backup is performed *on site* for quick recovery and kept *offline* to prevent ransomware attacks.
+Nowadays, data loss is a disaster! Prevent this with regular data backup as described below. The backup is performed *on site* for quick recovery and kept *offline* to prevent ransomware attacks.
 
 📋 Planning & Preparation
 --------------------------
-- [ ] 1. **[Read the documents](docs/)** to plan your backup strategy, strongly recommended is [3-2-1](docs/3-2-1_Backup_Strategy.md).
+- [ ] 1. **[Read the documents](docs/)** to plan your backup strategy, recommended is [3-2-1](docs/3-2-1_Backup_Strategy.md).
 - [ ] 2. **Get hard drives** with enough capacity (use different vendors/models/types and maybe rugged ones).
 - [ ] 3. **Check the hard drives** for errors and use error-free ones only.
 - [ ] 4. **Label the hard drives** by writing the disk size and a unique name onto them (e.g. "*4TB BACKUPS #1*")
