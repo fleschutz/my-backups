@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backing up Home 
+title ⏳ Backup in Progress...
 
 set "SOURCE=%HOMEDRIVE%%HOMEPATH%\"
 set "TARGET=%~dp0..\DATA\Home_dir\"

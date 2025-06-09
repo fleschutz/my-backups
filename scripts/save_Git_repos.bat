@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backing up Repos
+title ⏳ Backup in Progress...
 
 set "SOURCE=C:\Repos"
 set "TARGET=%~dp0..\DATA\Git_repos\"

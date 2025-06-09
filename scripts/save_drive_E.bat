@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >NUL
-title ⏳ Backing up E: drive
+title ⏳ Backup in Progress...
 
 set "SOURCE=E:\"
 set "TARGET=%~dp0..\DATA\Drive_E\"
